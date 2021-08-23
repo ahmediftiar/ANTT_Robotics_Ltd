@@ -97,16 +97,19 @@
 
     <section>
         <div class="container-fluid" style="background-color: #f0f0f0">
-          <div class="p-5 inneriot">
+          <div class="p-lg-5 p-3 inneriot">
             <h1 class="title font-weight-bold text-center">School of IoT -</h1>
             <h2 class="title font-weight-bold text-center">IoT & Data Sciene Starter Lits for 10+ Years Kids</h2>
+            <div class="d-lg-none d-block col-12 mt-5">
+              <img src="https://edublock.co/anttaset/product-asset/shop/iotimage.png" style="width: 100%;">
+            </div>
             <div class="row">
               <div class="col-lg-6 col-12 text-center">
                 <div class="row">
                   <div class="col-6 staricon1">
                     <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Reviewicons.png">
                   </div>
-                  <div class="col-6">
+                  <div class="col-6 my-auto">
                     <p class="font-weight-bold" style="color: black;">Price</p>
                     <span class="product-price"><del class="text-muted">BDT 9499</del> BDT 8499</span>
                   </div>
@@ -130,7 +133,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-12">
+              <div class="d-lg-block d-none col-lg-6">
                 <img src="https://edublock.co/anttaset/product-asset/shop/iotimage.png" style="width: 100%;">
               </div>
             </div>

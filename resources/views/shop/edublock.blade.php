@@ -199,10 +199,13 @@
           <div class="col-12 col-lg-6 col-xl-5">
                 <div>
                   <h2 class="mt-3">First Control Your Robot </h2>
+                  <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
+                    <img src="https://edublock.co/anttaset/product-asset/edublock/shots_1.png" alt="Image" class="img-fluid">
+                  </div>
                   <p class="lead">With Edublocks, the basics are super simple with plenty of tutorials. The first step toward robotics would be to control the robot from the app. And it comes with a small enjoyable challenge. You have to figure out how to program the controlling scheme. And as always there’ll be tutorials to assist.</p>
                 </div>
               </div>
-                <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+                <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
                     <img src="https://edublock.co/anttaset/product-asset/edublock/shots_1.png" alt="Image" class="img-fluid">
                 </div>
             </div>
@@ -212,12 +215,15 @@
         <section class="pt-0">
           <div class="container">
             <div class="row align-items-center justify-content-between">
-          <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+              <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
                 <img src="https://edublock.co/anttaset/product-asset/edublock/shots_3.png" alt="Image" class="img-fluid">
               </div>
-          <div class="col-12 col-lg-6 col-xl-5">
+              <div class="col-12 col-lg-6 col-xl-5">
                 <div> 
                   <h2 class="mt-3">Milestone and Gamified Learning </h2>
+                  <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
+                    <img src="https://edublock.co/anttaset/product-asset/edublock/shots_3.png" alt="Image" class="img-fluid">
+                  </div>
                   <p class="lead">The learning process is enjoyably gamified with milestones. There will be an interactive environment which prompts to complete the set of challenges to reach the next milestone. So learning will be amazing and would imprint the robotics realm and it’s basics on heart. It’s simply - Play Hard and Learn Easy.</p>
                 </div>
               </div>
@@ -230,10 +236,13 @@
           <div class="col-12 col-lg-6 col-xl-5">
                 <div>
                   <h2 class="mt-3">Advanced Coding C, Python, MicroPython</h2>
+                  <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
+                    <img src="https://edublock.co/anttaset/product-asset/edublock/shots_2.png" alt="Image" class="img-fluid">
+                  </div>
                   <p class="lead">ANTT Robotics has prepared phenomenal arrangements of awesome courses and tutorials for onboarding on the Programming Realm and IoT Realm. With a proficiency in C , Python &amp; IoT you will be career ready to embark on the wonderful journey of the fourth industrial revolution. Get ready to grow dependable expertise.</p>
                 </div>
               </div>
-              <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+              <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
                 <img src="https://edublock.co/anttaset/product-asset/edublock/shots_2.png" alt="Image" class="img-fluid">
               </div>
             </div>

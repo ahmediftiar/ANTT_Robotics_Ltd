@@ -200,40 +200,51 @@
           <div class="col-12 col-lg-6 col-xl-5">
             <div>
               <h2 class="mt-3">All in one-STEM DIY Box</h2>
+              <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
+                <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Top picture.png" alt="Image" class="img-fluid">
+              </div>
               <p class="lead">With School Of Iot, the box are full of  simple sensors and components. The first step toward robotics would be to control the robot wireless. And it comes with a fun projects. You have to figure out how to program the controlling scheme. And as always there’ll be guide to assist you in your STEAM world. </p>
             </div>
           </div>
-          <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+            <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
               <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Top picture.png" alt="Image" class="img-fluid">
             </div>
         </div>
       </div>
     </section>
+
     <section class="pt-0">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+          <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
             <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Middle picture.png" alt="Image" class="img-fluid">
           </div>
           <div class="col-12 col-lg-6 col-xl-5">
             <div> 
               <h2 class="mt-3">IoT Learning Experiment Book</h2>
-              <p class="lead">School Of IoT comes with experiement book, basic tutorials to advance all are super simple with plenty of tutorials. The book is graphically designed towards IoT learning.From monitoring the robot from the dashboard to control the heardware all in one guide.You will learn how  program the controlling scheme. The jounrney will be extremely enjoyable.</p>
+              <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
+                <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Middle picture.png" alt="Image" class="img-fluid">
+              </div>
+              <p class="lead mt-lg-0 mt-5">School Of IoT comes with experiement book, basic tutorials to advance all are super simple with plenty of tutorials. The book is graphically designed towards IoT learning.From monitoring the robot from the dashboard to control the heardware all in one guide.You will learn how  program the controlling scheme. The jounrney will be extremely enjoyable.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section class="pt-0">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-12 col-lg-6 col-xl-5">
             <div>
               <h2 class="mt-3">School of IOT App</h2>
+              <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
+                <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Bootom picture.png" alt="Image" class="img-fluid">
+              </div>
               <p class="lead">ANTT Robotics has prepared phenomenal dashboard for users. It gives you a super platform for programming sensors and control from cloud. With a proficiency in School Of IoT dashboard, you will be able to control your all stuffs with this dashboard easily.You can acess this dashboard from both mobile and computer.</p>
             </div>
           </div>
-          <div class="col-12 col-lg-6 mb-6 mb-lg-0">
+          <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
             <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Bootom picture.png" alt="Image" class="img-fluid">
           </div>
         </div>
