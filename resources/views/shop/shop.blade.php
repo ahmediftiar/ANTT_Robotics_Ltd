@@ -68,7 +68,7 @@
                 </div>
                 <div class="col-6">
                   <p class="font-weight-bold" style="color: black;">Price</p>
-                  <span class="product-price"><del class="text-muted">BDT 8499</del> BDT 6549</span>
+                  <span class="product-price"><del class="text-muted">BDT 8499</del> BDT 6800</span>
                 </div>
               </div>
               <ul class="check-list-wrap text-left">
