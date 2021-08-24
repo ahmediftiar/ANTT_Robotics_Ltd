@@ -95,15 +95,15 @@
                                 <ul>
                                     <li class="clearfix">
                                         <div class="wi"><a href="#"><img src="https://edublock.co/anttaset/Scratch600x400.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
-                                        <div class="wb"><a href="https://www.anttrobotics.com/scratchprograms">Scratch Programming for Kids</a><span class="post-date">Jul 8, 2021</span></div>
+                                        <div class="wb"><a href="https://www.anttrobotics.com/course/scratchprograms">Scratch Programming for Kids</a><span class="post-date">Jul 8, 2021</span></div>
                                     </li>
                                     <li class="clearfix">
                                         <div class="wi"><a href="#"><img src="https://edublock.co/anttaset/Robotics%20with%20Arduino600x400.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
-                                        <div class="wb"><a href="https://www.anttrobotics.com/basicarduino">Robotics with Arduino</a><span class="post-date">Jul 12, 2021</span></div>
+                                        <div class="wb"><a href="https://www.anttrobotics.com/course/basicarduino">Robotics with Arduino</a><span class="post-date">Jul 12, 2021</span></div>
                                     </li>
                                     <li class="clearfix">
                                         <div class="wi"><a href="#"><img src="https://edublock.co/anttaset/IoT600x400.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
-                                        <div class="wb"><a href="https://www.anttrobotics.com/programmingkids">Basic Internet of Things(IOT) with School of IoT</a><span class="post-date">Jul 5, 2021</span></div>
+                                        <div class="wb"><a href="https://www.anttrobotics.com/course/programmingkids">Basic Internet of Things(IOT) with School of IoT</a><span class="post-date">Jul 5, 2021</span></div>
                                     </li>
                                 </ul>
                             </aside>
