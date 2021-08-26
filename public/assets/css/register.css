@@ -182,16 +182,6 @@
     font-weight: 500;
     cursor: pointer;
   }
-  .logo{
-    text-align: center;
-  }
-  .logo a{
-
-  }
-  .logo a img{
-    width: 50%;
-    margin-bottom: -50px;
-  }
 
   .btn-facebook {
       background-color: #4064ac;
@@ -215,30 +205,3 @@
       color: #fff;
   }
 
-
-
-  @media screen and (max-width: 420px){
-    .logo{
-      text-align: center;
-    }
-    .logo a{
-
-    }
-    .logo a img{
-      width: 50%;
-      margin-bottom: -60px;
-    }
-  }
-
-  @media only screen and (max-width: 900px) and (min-width: 421px){
-    .logo{
-      text-align: center;
-    }
-    .logo a{
-
-    }
-    .logo a img{
-      width: 50%;
-      margin-bottom: -60px;
-    }
-  }

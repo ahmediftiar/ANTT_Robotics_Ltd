@@ -12,9 +12,9 @@
     </head>
    <body>
     <div class="logo">
-    <a class="" href="{{ route('home') }}">
+    <!-- <a class="" href="{{ route('home') }}">
       <img src="https://edublock.co/anttaset/ANTTRobotics_logo_full%20white-04.png" class="">
-    </a>
+    </a> -->
     </div>
       <div class="wrapper">
          <div class="title-text">
