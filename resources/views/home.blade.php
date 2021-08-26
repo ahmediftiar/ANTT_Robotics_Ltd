@@ -545,7 +545,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                                        <img src="https://edublock.co/anttaset/client1.png" alt="client" class="img-fluid">
                                                    </div>
                                                    <div class="media-body text-white">
-                                                       <h5 class="mb-0 text-white">Arabella Ora</h5>
+                                                       <h5 class="mb-0 text-white">Priyasree Das</h5>
                                                        <span>HR Manager</span>
                                                    </div>
                                                    <i class="fas fa-quote-right text-white"></i>
@@ -562,7 +562,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                                        <img src="https://edublock.co/anttaset/3.jpg" alt="client" class="img-fluid">
                                                    </div>
                                                    <div class="media-body text-white">
-                                                       <h5 class="mb-0 text-white">Jeremy Jere</h5>
+                                                       <h5 class="mb-0 text-white">Imtiaz Ahmad</h5>
                                                        <span>Team Leader</span>
                                                    </div>
                                                    <i class="fas fa-quote-right text-white"></i>
