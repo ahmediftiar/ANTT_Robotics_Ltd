@@ -17,13 +17,10 @@
     </a> -->
     </div>
       <div class="wrapper">
-         <div class="title-text">
-            <div class="title login">
-               Login
-            </div>
-            <div class="title signup">
-               Signup
-            </div>
+         <div class="logo">
+          <a class="" href="{{ route('home') }}">
+            <img src="https://edublock.co/anttaset/ANTT.png" class="">
+          </a>
          </div>
          <div class="form-container">
             <div class="slide-controls">
