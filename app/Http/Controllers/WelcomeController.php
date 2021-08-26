@@ -94,4 +94,11 @@ class WelcomeController extends Controller
         return view('pressrelease.press2');
     }
 
+
+    public function register()
+    {
+        return view('user.register');
+    }
+
+
 }

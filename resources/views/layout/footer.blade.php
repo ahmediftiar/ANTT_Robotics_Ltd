@@ -91,7 +91,7 @@
                                     <a href="#">FAQ  </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('pressrelease') }}">Press Release  </a>
+                                    <a href="{{ route('register') }}">Sign Up</a>
                                 </li>
                             </ul>
                         </div>
