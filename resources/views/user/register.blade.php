@@ -6,228 +6,9 @@
       <title>Login and Registration Form in HTML | CodingNepal</title>
       <link rel="stylesheet" href="style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <style>
-        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-html,body{
-  display: grid;
-  height: 100%;
-  width: 100%;
-  place-items: center;
-  background: -webkit-linear-gradient(left, #F9820E, #f9aa0d);
-}
-::selection{
-  background: #fa4299;
-  color: #fff;
-}
-.wrapper{
-  overflow: hidden;
-  max-width: 390px;
-  background: #fff;
-  padding: 30px;
-  margin: 0 10px;
-  border-radius: 5px;
-  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
-}
-.wrapper .title-text{
-  display: flex;
-  width: 200%;
-}
-.wrapper .title{
-  width: 50%;
-  font-size: 35px;
-  font-weight: 600;
-  text-align: center;
-  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
-}
-.wrapper .slide-controls{
-  position: relative;
-  display: flex;
-  height: 50px;
-  width: 100%;
-  overflow: hidden;
-  margin: 30px 0 10px 0;
-  justify-content: space-between;
-  border: 1px solid lightgrey;
-  border-radius: 5px;
-}
-.slide-controls .slide{
-  height: 100%;
-  width: 100%;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  line-height: 48px;
-  cursor: pointer;
-  z-index: 1;
-  transition: all 0.6s ease;
-}
-.slide-controls label.signup{
-  color: #000;
-}
-.slide-controls .slider-tab{
-  position: absolute;
-  height: 100%;
-  width: 50%;
-  left: 0;
-  z-index: 0;
-  border-radius: 5px;
-  background: -webkit-linear-gradient(left, #f9aa0d, #F9820E);
-  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
-}
-input[type="radio"]{
-  display: none;
-}
-#signup:checked ~ .slider-tab{
-  left: 50%;
-}
-#signup:checked ~ label.signup{
-  color: #fff;
-  cursor: default;
-  user-select: none;
-}
-#signup:checked ~ label.login{
-  color: #000;
-}
-#login:checked ~ label.signup{
-  color: #000;
-}
-#login:checked ~ label.login{
-  cursor: default;
-  user-select: none;
-}
-.wrapper .form-container{
-  width: 100%;
-  overflow: hidden;
-}
-.form-container .form-inner{
-  display: flex;
-  width: 200%;
-}
-.form-container .form-inner form{
-  width: 50%;
-  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
-}
-.form-inner form .field{
-  height: 50px;
-  width: 100%;
-  margin-top: 20px;
-}
-.form-inner form .field input{
-  height: 100%;
-  width: 100%;
-  outline: none;
-  padding-left: 15px;
-  border-radius: 5px;
-  border: 1px solid lightgrey;
-  border-bottom-width: 2px;
-  font-size: 17px;
-  transition: all 0.3s ease;
-}
-.form-inner form .field input:focus{
-  border-color: #F88A0E;
-  /* box-shadow: inset 0 0 3px #fb6aae; */
-}
-.form-inner form .field input::placeholder{
-  color: #999;
-  transition: all 0.3s ease;
-}
-form .field input:focus::placeholder{
-  color: #b3b3b3;
-}
-.form-inner form .pass-link{
-  margin-top: 5px;
-}
-.form-inner form .signup-link{
-  text-align: center;
-  margin-top: 30px;
-}
-.form-inner form .pass-link a,
-.form-inner form .signup-link a{
-  color: #F9830E;
-  text-decoration: none;
-}
-.form-inner form .pass-link a:hover,
-.form-inner form .signup-link a:hover{
-  text-decoration: underline;
-}
-form .btn{
-  height: 50px;
-  width: 100%;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-form .btn .btn-layer{
-  height: 100%;
-  width: 300%;
-  position: absolute;
-  left: -100%;
-  background: -webkit-linear-gradient(right, #f88a0e, #f9820e, #f9aa0d, #f9820e);
-  border-radius: 5px;
-  transition: all 0.4s ease;;
-}
-form .btn:hover .btn-layer{
-  left: 0;
-}
-form .btn input[type="submit"]{
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  position: relative;
-  background: none;
-  border: none;
-  color: #fff;
-  padding-left: 0;
-  border-radius: 5px;
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-}
-.logo{
-  text-align: center;
-}
-.logo a{
-
-}
-.logo a img{
-  width: 70%;
-  margin-bottom: -50px;
-}
-
-@media screen and (max-width: 420px){
-  .logo{
-    text-align: center;
-  }
-  .logo a{
-
-  }
-  .logo a img{
-    width: 70%;
-    margin-bottom: -60px;
-  }
-}
-
-@media only screen and (max-width: 900px) and (min-width: 421px){
-  .logo{
-    text-align: center;
-  }
-  .logo a{
-
-  }
-  .logo a img{
-    width: 70%;
-    margin-bottom: -60px;
-  }
-}
-      
-      </style>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link href="{{ asset('/assets/css/register.css') }}" rel="stylesheet" />
     </head>
    <body>
     <div class="logo">
@@ -267,6 +48,20 @@ form .btn input[type="submit"]{
                      <div class="btn-layer"></div>
                      <input type="submit" value="Login">
                   </div>
+                  <div class="other-login-signup my-3">
+                    <div class="or-login-signup text-center">
+                      <strong>Or Sign in With</strong>
+                    </div>
+                  </div>
+                  <ul class="list-inline social-login-signup text-center">
+                    <li class="list-inline-item my-1">
+                      <a href="#" class="btn btn-facebook"><i class="fab fa-facebook-f pr-1"></i> Facebook</a>
+                    </li>
+                    <li class="list-inline-item my-1">
+                      <a href="#" class="btn btn-google"><i class="fab fa-google pr-1"></i> Google</a>
+                    </li>
+                  </ul>
+                  
                   <div class="signup-link">
                      Not a member? <a href="">Signup now</a>
                   </div>
@@ -285,6 +80,19 @@ form .btn input[type="submit"]{
                      <div class="btn-layer"></div>
                      <input type="submit" value="Signup">
                   </div>
+                  <div class="other-login-signup my-3">
+                    <div class="or-login-signup text-center">
+                      <strong>Or Sign up With</strong>
+                    </div>
+                  </div>
+                  <ul class="list-inline social-login-signup text-center">
+                    <li class="list-inline-item my-1">
+                      <a href="#" class="btn btn-facebook"><i class="fab fa-facebook-f pr-1"></i> Facebook</a>
+                    </li>
+                    <li class="list-inline-item my-1">
+                      <a href="#" class="btn btn-google"><i class="fab fa-google pr-1"></i> Google</a>
+                    </li>
+                  </ul>
                </form>
                
             </div>
