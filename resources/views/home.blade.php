@@ -546,7 +546,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                                    </div>
                                                    <div class="media-body text-white">
                                                        <h5 class="mb-0 text-white">Priyasree Das</h5>
-                                                       <span>HR Manager</span>
+                                                       <span>Parents</span>
                                                    </div>
                                                    <i class="fas fa-quote-right text-white"></i>
                                                </div>
@@ -563,12 +563,12 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                                    </div>
                                                    <div class="media-body text-white">
                                                        <h5 class="mb-0 text-white">Imtiaz Ahmad</h5>
-                                                       <span>Team Leader</span>
+                                                       <span>CEO</span>
                                                    </div>
                                                    <i class="fas fa-quote-right text-white"></i>
                                                </div>
                                                <div class="client-say text-white">
-                                                   <p class="text-secondary">Clearly in this era, industries adopting IoT and smart automation will sustain on this revolution at full throttle. ANTT Robotics is a great place to start as they provide both consultancy and hardware support. Their field of work encompasses the Education Sector greatly</p>
+                                                   <p class="text-secondary">In this techraising world we need to prepare ourselves and our beloved children for the next step of learning. ANTT Robotics is doing this obvious task using their awesome team for teaching programming and tech skills.</p>
                                                </div>
                                            </div>
                                        </div>

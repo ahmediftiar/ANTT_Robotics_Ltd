@@ -29,6 +29,9 @@
       text-align: center;
       margin-top: 10px;
   }
+  .logo img{ 
+    width: 55%;
+}
   .wrapper .title-text{
     display: flex;
     width: 200%;

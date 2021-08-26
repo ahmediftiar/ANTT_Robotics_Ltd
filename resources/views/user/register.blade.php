@@ -19,7 +19,7 @@
       <div class="wrapper">
          <div class="logo">
           <a class="" href="{{ route('home') }}">
-            <img src="https://edublock.co/anttaset/ANTT.png" class="">
+            <img src="https://edublock.co/anttaset/ANTT_Orange_logo.png" class="">
           </a>
          </div>
          <div class="form-container">
