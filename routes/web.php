@@ -43,3 +43,6 @@ Route::get('/pressrelease/press2', [WelcomeController::class, 'press2'])->name('
 
 //Register routes
 Route::get('/register', [WelcomeController::class, 'register'])->name('register');
+
+//Solution routes
+Route::get('/solution', [WelcomeController::class, 'solution'])->name('solution');
