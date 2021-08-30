@@ -96,7 +96,7 @@ class WelcomeController extends Controller
 
     public function solution()
     {
-        return view('home');
+        return view('solution');
     }
 
     public function register()

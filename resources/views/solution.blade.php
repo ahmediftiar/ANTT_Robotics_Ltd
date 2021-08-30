@@ -76,9 +76,9 @@
                 </ul>
               </div><br>
               <div class="slides">
-                <a href="#slide1"><img src="https://edublock.co/anttaset/product-asset/edublock/p2.png"></a>
-                <a href="#slide2"><img src="https://edublock.co/anttaset/product-asset/edublock/p1.png"></a>
-                <a href="#slide3"><img src="https://edublock.co/anttaset/product-asset/edublock/p4.png"></a>
+                <a href="#"><img src="https://edublock.co/anttaset/solution/icon002.png"></a>
+                <a href="#"><img src="https://edublock.co/anttaset/solution/icon001.png"></a>
+                <a href="#"><img src="https://edublock.co/anttaset/solution/icon003.png"></a>
               </div>
             </div>
             <div class="col-lg-6 col-12 text-center">
@@ -228,14 +228,14 @@
           <div class="col-12 col-lg-6 col-xl-5">
                 <div>
                   <h3 class="">National Curriculum Friendly Courses</h3>
-                  <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                    <img src="https://edublock.co/anttaset/solution/icon11.png" alt="Image" class="img-fluid">
+                  <div class="d-lg-none d-block col-12 col-lg-6 mb-3 mb-lg-0">
+                    <img src="https://edublock.co/anttaset/solution/icon111.png" alt="Image" class="img-fluid">
                   </div>
                   <p class="">Learners can participate in self-paced and national curriculum friendly courses anytime and anywhere! The contents are created and organized effectively so that students can identify their learning needs and select accordingly. There's a phenomenal arrangement of awesome contents and time saving tools well designed for them with a comprehensive grading system. The contents contain multiple assessments, time limitation, course tracking, and sharing functionality and many more!</p>
                 </div>
               </div>
                 <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-                    <img src="https://edublock.co/anttaset/solution/icon11.png" alt="Image" class="img-fluid">
+                    <img src="https://edublock.co/anttaset/solution/icon111.png" alt="Image" class="img-fluid">
                 </div>
             </div>
           </div>
@@ -244,14 +244,14 @@
         <section class="pt-0">
           <div class="container">
             <div class="row align-items-center justify-content-between">
-              <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-                <img src="https://edublock.co/anttaset/solution/icon22.png" alt="Image" class="img-fluid">
+              <div class="d-lg-block d-none col-12 col-lg-6 mb-3 mb-lg-0">
+                <img src="https://edublock.co/anttaset/solution/icon222.png" alt="Image" class="img-fluid">
               </div>
               <div class="col-12 col-lg-6 col-xl-5">
                 <div> 
                   <h3 class="">Feels Like Real Class Room</h3>
-                  <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                    <img src="https://edublock.co/anttaset/solution/icon22.png" alt="Image" class="img-fluid">
+                  <div class="d-lg-none d-block col-12 col-lg-6 mb-3 mb-lg-0">
+                    <img src="https://edublock.co/anttaset/solution/icon222.png" alt="Image" class="img-fluid">
                   </div>
                   <p class="">Video conferencing features are really beneficial for the Students who need one-on-one attention or have complicated questions. We provide not only a modern replica of traditional classes but also a more dynamic and comprehensive classroom environment integrated with multiple communication options and a variety of access points! Teachers can keep an eye on each student and communicate face-to-face with them real-time.</p>
                 </div>
@@ -265,14 +265,14 @@
           <div class="col-12 col-lg-6 col-xl-5">
                 <div>
                   <h3 class="">Smart & Flexible Scheduling</h3>
-                  <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                    <img src="https://edublock.co/anttaset/solution/icon33.png" alt="Image" class="img-fluid">
+                  <div class="d-lg-none d-block col-12 col-lg-6 mb-3 mb-lg-0">
+                    <img src="https://edublock.co/anttaset/solution/icon333.png" alt="Image" class="img-fluid">
                   </div>
                   <p class="">Teachers don't have to maintain the old-fashioned timetable book anymore. Rather instructors can offer their learners multiple dates and times for their classes/ sessions. This flexibility benefits learners by ensuring they have access to important classes when they are available. Students can just sign in and check their timetable on the go! Students can easily check all the upcoming events/announcements from the school much in advance with a single, consolidated ‘Calendar’ feature showing all school events.</p>
                 </div>
               </div>
               <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-                <img src="https://edublock.co/anttaset/solution/icon33.png" alt="Image" class="img-fluid">
+                <img src="https://edublock.co/anttaset/solution/icon333.png" alt="Image" class="img-fluid">
               </div>
             </div>
           </div>
