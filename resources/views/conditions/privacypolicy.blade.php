@@ -37,7 +37,7 @@
 <body>
 
 <div class="page-wrapper">
-    
+
    <!-- Navbar starts here -->
    <div class="header-top fixed-top container-fluid" style="background: #F9820E;"> 
         <nav class="navbar navbar-expand-lg navbar-light container-fluid px-0 mx-0">
@@ -92,9 +92,7 @@
     <div class="bg-white rounded-lg shadow p-8 my-4">
         <div class="col-sm-12 my-4">
             <h2 class="text-center">Privacy Policy</h2>
-            <p> Welcome to <a href="https://www.evaly.com.bd">evaly.com.bd</a>; a site conducted and operated under evaly.com.bd Limited. We respect your privacy and want to protect your personal information. To learn more, please read this Privacy Policy. </p><p> This Privacy Policy clarifies how we gather, utilize and (under specific conditions) uncover your own data. This Privacy Policy additionally clarifies the means we have taken to secure your own data. At long last, this Privacy Policy clarifies your alternatives with respect to the accumulation, utilize and divulgence of your own data. By going to the site specifically or through another site, you acknowledge the practices depicted in this Policy. </p><p> Information security involves trust and your protection is essential to us. We should, along these lines, just utilize your name and other data which identifies with you in the way set out in this Privacy Policy. We will just gather data where it is fundamental for us to do as such and we will just gather data on the off chance that it is significant to our dealings with you. </p>
-            <p> We will just keep your data for whatever length of time that we are either required to by law or as is pertinent for the reasons for which it was gathered. </p><p> You can visit the Site and peruse without providing individual points of interest. Amid your visit to the Site you stay mysterious and at no time would we be able to distinguish you unless you have a record on the Site and sign on with your client name and secret word. </p><h4>What kind of information we collect?</h4><p> We may gather different snippets of data in the event that you look to submit a request for an item with us on the site. </p><p> We gather, store and process your information for handling your purchase on the site and any conceivable claims which you may make later on, and for your better communication with our administration. We may gather individual data including, however not restricted to, your title, name, sexual orientation, date of birth, email address, postal address, conveyance address (if unique), phone number, mobile number, fax number, installment subtle elements, installment card points of interest or financial balance subtle elements. </p>
-            
+           
         </div>
     </div>
 </div>
