@@ -1,5 +1,5 @@
    <!-- Navbar starts here -->
-    <div class="header-top fixed-top container-fluid"> 
+   <div class="header-top fixed-top container-fluid" style="background: #F9820E;"> 
         <nav class="navbar navbar-expand-lg navbar-light container-fluid px-0 mx-0">
 
             <a class="navbar-brand d-lg-none" href="{{ route('home') }}"><img src="https://edublock.co/anttaset/ANTTRobotics_logo_full%20white-04.png" class="nav-img-sm"></a>
@@ -37,8 +37,6 @@
                                 
                     </div>
                 </div>
-                
-
             </div>
         </nav>
         <div class="nav-bottom-bar-sm d-lg-none">
