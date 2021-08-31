@@ -19,6 +19,19 @@
                 <div class="col-md-12 col-lg-8">
                     <div class="row mt-0">
                         <div class="col-sm-6 col-md-3 col-lg-3 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
+                            <h6 class="text-uppercase">Menu</h6>
+                            <ul>
+                                <li>
+                                    <a href="{{ route('terms-and-conditions') }}">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('refund-policy') }}">Refund Policy</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('privacy-policy') }}">Privacy Policy</a>
+                                </li>
+
+                            </ul>
                             <h6 class="text-uppercase">Resources</h6>
                             <ul>
                                 <li>

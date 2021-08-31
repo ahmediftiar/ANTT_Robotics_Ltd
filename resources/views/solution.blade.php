@@ -83,7 +83,7 @@
             </div>
             <div class="col-lg-6 col-12 text-center">
               <h1 class="title font-weight-bold">LMS Title</h1>
-              <p class="mb-5 font-weight-bold">Control Your Own Learning Journey!</p>
+              <p class="mb-5 font-weight-bold">Simplify Learning & Teaching for a smarter future!</p>
               <div class="row" style="height:120px;">
                 <div class="col-6 staricon">
                   <img src="https://edublock.co/anttaset/product-asset/edublock/Reviewicons.png">

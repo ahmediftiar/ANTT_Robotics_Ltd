@@ -46,3 +46,8 @@ Route::get('/register', [WelcomeController::class, 'register'])->name('register'
 
 //Solution routes
 Route::get('/solution', [WelcomeController::class, 'solution'])->name('solution');
+
+//Coditions routes
+Route::get('/terms-and-conditions', [WelcomeController::class, 'termsAndConditions'])->name('terms-and-conditions');
+Route::get('/refund-policy', [WelcomeController::class, 'refundPolicy'])->name('refund-policy');
+Route::get('/privacy-policy', [WelcomeController::class, 'privacyPolicy'])->name('privacy-policy');

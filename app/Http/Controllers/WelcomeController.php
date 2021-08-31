@@ -104,5 +104,18 @@ class WelcomeController extends Controller
         return view('user.register');
     }
 
+    public function termsAndConditions()
+    {
+        return view('conditions.termsandconditions');
+    }
+    public function refundPolicy()
+    {
+        return view('conditions.refundpolicy');
+    }
+    public function privacyPolicy()
+    {
+        return view('conditions.privacypolicy');
+    }
+
 
 }
