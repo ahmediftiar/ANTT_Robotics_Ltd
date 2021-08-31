@@ -155,7 +155,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 text-center sec03">
-              <h3 class="title font-weight-bold mt-3 p-3">Here we have the privilege of showing learners how to meet their goals. We provide them the tools and techniques, online resources and environment they require.</h3>
+              <h3 class="title font-weight-bold mt-3 p-3 mr-5">Here we have the privilege of showing learners how to meet their goals. We provide them the tools and techniques, online resources and environment they require.</h3>
               <div class="action-btns mt-4">
                 <a href="#" target="_blank" class="btn btn-outline-brand-02">Buy Now</a>
               </div>
@@ -281,8 +281,8 @@
         <section id="section06" class="section06">
           <div class="container-fluid ">
               <div class="contect101"> 
-                <h2 class="text-center font-weight-bold">Start Now with EduBlock !</h2>
-                <h2 class="text-center">STEAM Robots to Bloom the Creative</h2>                 
+                <h2 class="text-center font-weight-bold">Start Now with LMS !</h2>
+                <h2 class="text-center">Control Your Own Learning Journey</h2>                 
                 <div class="row">
                   <div class="col-lg-4"></div>
                   <div class="col-lg-4 section06_image">
