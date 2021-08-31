@@ -160,7 +160,7 @@
                 <a href="#" target="_blank" class="btn btn-outline-brand-02">Buy Now</a>
               </div>
             </div>
-            <div class="col-lg-6 track1" >
+            <div class="col-lg-6 track11" >
               <div class="">
                 <ul>
                   <li id=""><img src="https://edublock.co/anttaset/solution/image101.png"></li>
