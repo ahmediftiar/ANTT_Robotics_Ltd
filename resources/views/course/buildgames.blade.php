@@ -196,7 +196,7 @@
                                                   <polyline points="20 6 9 17 4 12"></polyline>
                                                 </svg>
                                               </div>
-                                              <p class="mb-0 ml-3">Price: <del class="text-muted">BDT 3050</del> BDT 2050</p>
+                                              <p class="mb-0 ml-3">Price: <del class="text-muted">BDT 2050</del> BDT 1500</p>
                                             </div>
                                          
                                             <div class="d-flex align-items-center mb-3">
