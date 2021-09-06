@@ -99,8 +99,8 @@
                   <img src="https://edublock.co/anttaset/product-asset/edublock/Reviewicons.png">
                 </div>
                 <div class="col-6">
-                  <p class="font-weight-bold" style="color: black;">Price</p>
-                  <span class="product-price"><del class="text-muted">BDT 9499</del> BDT 8499</span>
+                  <!-- <p class="font-weight-bold" style="color: black;">Price</p>
+                  <span class="product-price"><del class="text-muted">BDT 9499</del> BDT 8499</span> -->
                 </div>
               </div>
               <ul class="check-list-wrap text-left">

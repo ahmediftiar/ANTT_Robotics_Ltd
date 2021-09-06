@@ -63,13 +63,13 @@
             </div>
             <div class="col-lg-6 col-12 text-center">
               <div class="row" style="height:120px;">
-                <div class="col-6 staricon">
+                <!-- <div class="col-6 staricon">
                   <img src="https://edublock.co/anttaset/product-asset/edublock/Reviewicons.png">
                 </div>
                 <div class="col-6">
                   <p class="font-weight-bold" style="color: black;">Price</p>
                   <span class="product-price"><del class="text-muted">BDT 8499</del> BDT 6800</span>
-                </div>
+                </div> -->
               </div>
               <ul class="check-list-wrap text-left">
                 <li>Robotics STEAM Toy for learning Programming languages and Robotics</li>
@@ -105,14 +105,14 @@
             </div>
             <div class="row">
               <div class="col-lg-6 col-12 text-center">
-                <div class="row">
-                  <div class="col-6 staricon1">
+                <div class="row"><br><br>
+                  <!-- <div class="col-6 staricon1">
                     <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Reviewicons.png">
                   </div>
                   <div class="col-6 my-auto">
                     <p class="font-weight-bold" style="color: black;">Price</p>
                     <span class="product-price"><del class="text-muted">BDT 9499</del> BDT 8499</span>
-                  </div>
+                  </div> -->
                 </div>
                 <ul class="check-list-wrap text-left">
                   <li>Free 3 Months Online/Offline mentor support roobotics STEAM Toy.</li>
