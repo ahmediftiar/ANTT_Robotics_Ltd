@@ -40,6 +40,7 @@ Route::get('/shop/schoolofiot',[WelcomeController::class, 'schoolofiot'])->name(
 Route::get('/pressrelease', [WelcomeController::class, 'pressrelease'])->name('pressrelease');
 Route::get('/pressrelease/press1', [WelcomeController::class, 'press1'])->name('pressrelease.press1');
 Route::get('/pressrelease/press2', [WelcomeController::class, 'press2'])->name('pressrelease.press2');
+Route::get('/pressrelease/press3', [WelcomeController::class, 'press3'])->name('pressrelease.press3');
 
 //Register routes
 Route::get('/register', [WelcomeController::class, 'register'])->name('register');

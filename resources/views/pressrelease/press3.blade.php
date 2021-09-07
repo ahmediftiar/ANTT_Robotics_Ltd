@@ -20,7 +20,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="google-site-verification" content="z8eugNKi33OtVizosZQ5-bw5HKKo_uMibPyKUkvxVmU">
 
-<title>Press Release</title>
+<title>Facilitate Industry 4.0</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -45,14 +45,14 @@
 <div class="page-wrapper">
 
  @include('layout.header')
-
- <section class="page-header-section ptb-100 bg-image" image-overlay="6">
+ <div class="main">
+        <section class="page-header-section ptb-100 bg-image" image-overlay="6">
             <div class="background-image-wraper" style="background: url('https://edublock.co/anttaset/pressrelease.png'); opacity: 1;"></div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-9 col-lg-7">
                         <div class="page-header-content text-white pt-4">
-                            <h1 class="text-white mb-0">Press Release</h1>
+                            <h1 class="text-white mb-0">Press Release 08-09-2021</h1>
                         </div>
                     </div>
                 </div>
@@ -60,74 +60,37 @@
         </section>
         <!--page header section end-->
         <div class="container">
-            <div class="d-flex mt-4"><a href="{{ route('home') }}">Home</a><p>-></p><a href="{{ route('pressrelease') }}">Press Release</a></div>
+        <div class="d-flex mt-4"><a href="{{ route('home') }}">Home</a><p>-></p><a href="{{ route('pressrelease') }}">Press Release</a><p>-></p><a href="{{ route('pressrelease.press3') }}">Press 3</a></div>
             <div class="row">
-                <div class="col-md-8 col-12">
-                    <div class="">
-                        <img src="https://edublock.co/anttaset/pressimage/press3img0.jpg" style="max-width: 100%; padding: 20px 0;">
+                <div class="col-12 press">
+                    <div class="press02">
+                        <img src="https://edublock.co/anttaset/pressimage/press3img5.jpg" style="max-width: 100%; padding: 20px 0;">
                         <h5>STEM CLUB Bangladesh is back with “STEM FEST 2021: Exploring STEM through Coding” For Young Enthusiasts!</h5>
-                        <p>STEM CLUB Bangladesh is going to arrange another tremendous coding competition for School & College level students after successfully hosting the <strong>“MICRO CAMP-2020”</strong> campaign with a huge overwhelming response. For those who don’t know yet, STEM CLUB Bangladesh is an excellent community platform which is aiming to build awareness among the students, educators and enthusiasts to ennoble the society through a world-leading STEM (Science, Technology, Engineering and Mathematics) education in collaboration with the Information and Communication Technology (ICT) Division, iDEA Project as partners of the great initiative.</p><br>
-                        <a href="{{ route('pressrelease.press3') }}" class="btn-readmore">Read More</a>
-                    </div><br>
-                    <div class="">
-                        <img src="https://edublock.co/anttaset/pressimage/press2img4.JPG" style="max-width: 100%; padding: 20px 0;">
-                        <h5>Bangladesh Frontier Startups Demo Day | ANTT Robotics Ltd.</h5>
-                        <p>ANTT Robotics, based in Dhaka, Bangladesh, began its voyage in early 2019. With the support of our 8,000-strong member in the STEAM community, we developed our patent-pending system. Our team is made up of seasoned R&D, technology, hardware, software, and business analysis experts that have worked for reputable local and worldwide firms. Our team also has a strong local network, which includes maker labs, institutions, and educators.</p><br>
-                        <a href="{{ route('pressrelease.press2') }}" class="btn-readmore">Read More</a>
-                    </div><br>
-                    <div class="">
-                        <img src="https://edublock.co/anttaset/press01.png" style="max-width: 100%; padding: 20px 0;">
-                        <h5>ANTT Robotics Raises Angel Round to Accelerate International Expansion</h5>
-                        <p>ANTT Robotics Ltd. and have successfully filed for their first patent and have been the only company able to raise Angel Investment, for the development of one the most crucial missing pieces in the modern education field of Bangladesh, entitled ‘Artificial Intelligence Based Learning Management System’. The system has been validated by their own designed Robotics STEM tools in (04) Four Seoul Based Elementary School’s student pilot programs which also helped ANTT to develop ‘Bangladesh National Curriculum’ friendly Courses for Learning Robotics and Programming for Embedded Systems.</p><br>
-                        <a href="{{ route('pressrelease.press1') }}" class="btn-readmore">Read More</a>
-                    </div><br>
-                </div>
-                <div class="col-md-4 col-12">
-                    <p class="mt-4">RECENT POSTS</p>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="https://edublock.co/anttaset/pressimage/press3img0.jpg" style="max-width: 100%;">
-                        </div>
-                        <div class="col-8">
-                            <a href="" style="font-size: 11px;">STEM CLUB Bangladesh is back</a>
-                        </div>
-                    </div><br>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="https://edublock.co/anttaset/pressimage/press2img4.JPG" style="max-width: 100%;">
-                        </div>
-                        <div class="col-8">
-                            <a href="https://www.prothomalo.com/education/science-tech/%E0%A6%95%E0%A7%8B%E0%A6%A1-%E0%A6%A8%E0%A6%BE-%E0%A6%B2%E0%A6%BF%E0%A6%96%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82?fbclid=IwAR1SWTFlv0JHEAVci0Bt0SzuNd-eTYSkKiwBmFlBo99A5RqKN0Zrsm4WBLU" style="font-size: 11px;">Bangladesh Frontier Startups Demo Day</a>
-                        </div>
-                    </div><br>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="https://tbsnews.net/sites/default/files/styles/infograph/public/images/2021/02/19/tbs_page_08.jpg?itok=8zhkxYXe&timestamp=1613708569" style="max-width: 100%;">
-                        </div>
-                        <div class="col-8">
-                            <a href="https://www.tbsnews.net/feature/panorama/antt-robotics-leading-bangladeshs-youth-tech-enabled-future-204232" style="font-size: 11px;">ANTT Robotics: Leading Bangladesh's youth to a tech-enabled future</a>
-                        </div>
-                    </div><br>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="https://www.daily-sun.com/assets/news_images/2020/12/25/Daily-sun-2020-12-25-16.jpg" style="max-width: 100%;">
-                        </div>
-                        <div class="col-8">
-                            <a href="https://www.daily-sun.com/printversion/details/525643/5-startups-win-awards-in-int%E2%80%99l-hackathon" style="font-size: 11px;">ANTT Robotics wins 3rd position of  ideaTHON</a>
-                        </div>
-                    </div><br>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="https://tbsnews.net/sites/default/files/styles/big_3/public/images/2020/02/11/84358915_654331121980010_5895637466177601536_n.jpg?itok=UN_Ad2gi&timestamp=1581437946" style="max-width: 100%;">
-                        </div>
-                        <div class="col-8">
-                            <a href="https://www.facebook.com/notes/380812809942478/ " style="font-size: 11px;">Banglalink IT Incubator announces top 7 startups for its 3rd Cohort at Gala Night</a>
-                        </div>
+                        <p class="pressdate">8 September 2021 / Dhaka, Bangladesh</p>
+                        <p>&emsp;&emsp;&emsp; STEM CLUB Bangladesh is going to arrange another tremendous coding competition for School & College level students after successfully hosting the <strong>“MICRO CAMP-2020”</strong> campaign with a huge overwhelming response. For those who don’t know yet, STEM CLUB Bangladesh is an excellent community platform which is aiming to build awareness among the students, educators and enthusiasts to ennoble the society through a world-leading STEM (Science, Technology, Engineering and Mathematics) education in collaboration with the Information and Communication Technology (ICT) Division, iDEA Project as partners of the great initiative.</p>
+                        <img src="https://edublock.co/anttaset/pressimage/press3img1.png" style="max-width: 100%; padding: 20px 0;">
+                        <p>&emsp;&emsp;&emsp;There is a global shortage of young people entering STEM fields and careers. Now it is the time to engage the students, educators, and enthusiasts as young as possible and show how broad STEM is and what amazing opportunities there are. <strong>“STEM FEST 2021: Exploring STEM through Coding”</strong> is powered By <strong>ANTT Robotics</strong> and supported by <strong>Innovation Design and Entrepreneurship Academy (idea), ICT Division, and Korea Productivity Center (KPC)</strong>. STEM CLUB Bangladesh also has <strong>Bangladesh Robotics Foundation as an Org. Partner, The Business Standard as a Media Partner, Innokids, My e-Kids, Moonsez Art Academy as an Edu-tech Partner, Rangpur Startup as an Ecosystem Partner and Tesseract Technologies as an Technical Partner</strong> in this upcoming event.</p>
+                        <br><br>
+                       <p>&emsp;&emsp;&emsp; It is all based around STEM but learning by doing.This STEM celebration is dedicated to guide enthusiasts to learn Scratch Programming, Arduino and Iot which are applicable for school & college students. Undoubtedly, the STEM fest is going to be a diverse programme to engage different communities and make STEM fields attractive and accessible.</p>
+                       <img src="https://edublock.co/anttaset/pressimage/press3img2.png" style="max-width: 100%; padding: 20px 0;">
+                        <p>&emsp;&emsp;&emsp;There will be three themes to compete on which are for school & college students. We will first provide them boot camp, where they will learn about how to solve code in particular themes. Here, they will also get one-on-one mentoring sessions as well. Those Boot Camp & Mentoring sessions will be held on 10 September 2021 and 17 September 2021. We will open the challenge after every Boot Camp & Mentoring session. Students will get limited time to solve those problems. Then they have to submit their work through our procedure on a particular day. Again, every participant of STEM FEST 2021 will get a free workshop on Pitch presentation on 18 September 2021. On the final day, we will start our program with a Pitch Competition. And last but not the least, our Chief guest and honorable guests will announce the winner’s name in the closing ceremony</p>
+
+                        <p>&emsp;&emsp;&emsp; <strong>The Champion</strong>  will get IoT Starter Kits and a 3 month Live IoT Course (it will be worth about 10,000 BDT), <strong>the 1st Runner up</strong> will get Robotics Starter Kits and a 3 month Live Robotics & Programming Course (it will be worth about 8,000 BDT) & <strong>the 2nd Runner up</strong> will get Group Discount Coupon code for free course with maximum 3 team members/ friends (it will be worth about 5,000 BDT).
+                            <br>Moreover, a printed certificate will be provided to the >strong>top 10 contestants</strong>.</p>
+                        <img src="https://edublock.co/anttaset/pressimage/press3img3.png" style="max-width: 100%; padding: 20px 0;">
+                        <br>
+                         <p>&emsp;&emsp;&emsp; <strong>Schedule Details of the STEM Fest is given below</strong> </p>
+                        <ul style="list-style-type: disc; list-style-position: inside;" class="ml-md-5 text-left">
+                            <li>Day 1: 10 September 2021 - Opening Ceremony, Arduino Boot Camp & Mentoring session.</li>
+                            <li>Day 2: 17 September 2021 - IoT Boot Camp & Mentoring session and Scratch Programming Boot Camp & Mentoring session.</li>
+                            <li>Day 3: 18 September 2021 - Pitch Presentation Workshop.</li>
+                            <li>Day 4: 24 September 2021 - Pitch Presentation Competition, Winner Announcement & Closing Ceremony.</li>
+                        </ul>
+                        <p>&emsp;&emsp;&emsp; STEM CLUB Bangladesh is focusing on STEM education equality and equity where no students should fall behind due to geolocation setbacks and school facilities lacking in the quest of preparing for the modern technology world. Therefore, the concept of the upcoming STEM Fest is to train the younger generation using the element of personalization and gamification and make a difference in the vast world of technology rather than keeping modern technologies away.</p>
                     </div>
                 </div>
             </div>
         </div>
-
       
     </div>
     
@@ -176,7 +139,7 @@
                 </div>
             </div>
         </section>
-    <!--our team section end-->
+        <!--our team section end-->
 
  @include('layout.footer')
 </div>

@@ -94,6 +94,11 @@ class WelcomeController extends Controller
         return view('pressrelease.press2');
     }
 
+    public function press3()
+    {
+        return view('pressrelease.press3');
+    }
+
     public function solution()
     {
         return view('solution');
