@@ -35,6 +35,7 @@ Route::get('/course/iotcar', [WelcomeController::class, 'iotcar'])->name('course
 Route::get('/shop',[WelcomeController::class, 'shop'])->name('shop');
 Route::get('/shop/edublock',[WelcomeController::class, 'edublock'])->name('shop.edublock');
 Route::get('/shop/schoolofiot',[WelcomeController::class, 'schoolofiot'])->name('shop.schoolofiot');
+Route::get('/edublockdigitalmanual ',[WelcomeController::class, 'edublockdigitalmanual'])->name('edublockdigitalmanual');
 
 //Press Release routes End
 Route::get('/pressrelease', [WelcomeController::class, 'pressrelease'])->name('pressrelease');

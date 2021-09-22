@@ -127,5 +127,10 @@ class WelcomeController extends Controller
         return view('conditions.privacypolicy');
     }
 
+    public function edublockdigitalmanual()
+    {
+        return view('shop.edublockdigitalmanual');
+    }
+
 
 }
