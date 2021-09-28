@@ -8,7 +8,8 @@
                     </a>
                     <br>
                     <p>Level-04, Software Technology Park, Karwan Bazar, Dhaka-1215, Bangladesh</p>
-                    <p>311, Gangnam-daero, Seocho-gu Seoul, South Korea 06628</p>
+                    <p>iDEA, E-14/X, ICT Tower (14th Floor), Agargaon, Dhaka - 1207, Bangladesh.</p>
+                    <p><strong>e-mail:</strong> anttrobotics@gmail.com <br> <strong>Support:</strong> +880 192 577 0036 (WhatsApp)</p>
                     <div class="list-inline social-list-default background-color social-hover-2 mt-2">
                         <li class="list-inline-item"><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a class="youtube" href="#"><i class="fab fa-youtube"></i></a></li>
