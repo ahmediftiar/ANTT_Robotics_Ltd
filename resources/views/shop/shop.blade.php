@@ -99,7 +99,7 @@
         <div class="container-fluid" style="background-color: #f0f0f0">
           <div class="p-lg-5 p-3 inneriot">
             <h1 class="title font-weight-bold text-center">School of IoT -</h1>
-            <h2 class="title font-weight-bold text-center">IoT & Data Sciene Starter Kits for 10+ Years Kids</h2>
+            <h2 class="title font-weight-bold text-center">IoT & Data Science Starter Kits for 10+ Years Kids</h2>
             <div class="d-lg-none d-block col-12 mt-5">
               <img src="https://edublock.co/anttaset/product-asset/shop/iotimage.png" style="width: 100%;">
             </div>
