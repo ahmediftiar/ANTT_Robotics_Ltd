@@ -137,7 +137,8 @@ class WelcomeController extends Controller
     }
     public function apkDownload()
     {
-        return response()->download('assets/files/edubot-v2.0.0.apk');
+        $file_path = public_path('assets/files/edubot-v2.0.0.apk');
+        return response()->download($file_path);
     }
 
     //Footer Content Starts
