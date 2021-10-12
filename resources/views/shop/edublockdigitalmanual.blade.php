@@ -145,12 +145,12 @@
                 <li class="text-justify ml-md-5">Target Gas: Smoke/ Combustible Gas.</li>
                 <li class="text-justify ml-md-5">Detection Range: 300～10000ppm(flammable gas).</li>
                 <li class="text-justify ml-md-5">Application: domestic gas leakage alarm, portable gas detector.</li><br>
-                <img class="playstore" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock05.png"><br><br><span>Name: </span><br><br>
+                <img class="playstore" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock05.png"><br><br>
                 <li class="text-justify ml-md-5">Resistance : 400 ohm to 400 Kohm.</li>
                 <li class="text-justify ml-md-5">Normal resistance variation: 1 Kohm to 10 Kohm.</li>
                 <li class="text-justify ml-md-5">Sensitivity: about 3msec (Sensitivity is defined as the time taken for output to change when input changes.</li>
                 <li class="text-justify ml-md-5"> Voltage ratings: used it on 3V, 5V and 12V.</li><br>
-                <img class="playstore" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock06.jpg"><br><br><span>Name: </span><br><br>
+                <img class="playstore" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock06.jpg"><br><br>
                 <li class="text-justify ml-md-5">Detection distance: 2 ~ 30cm</li>
                 <li class="text-justify ml-md-5">Detection angle: 35 °</li>
                 <li class="text-justify ml-md-5">Comparator chip: LM393</li>
@@ -185,8 +185,7 @@
 
             <div class="" id="manual6">
               <h5>Basic Robotics & Programming Book</h5><hr>
-              {{-- <a class="ml-md-5" href="{{route('edublockdigitalmanualbook')}}">Click here to see</a> --}}
-              <a class="ml-md-5" href="#">Click here to see</a>
+              <a class="ml-md-5" href="{{route('edublockdigitalmanualbook')}}">Click here to see</a>
             </div><br>
           </div>
       </div>

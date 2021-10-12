@@ -36,7 +36,7 @@ Route::get('/shop',[WelcomeController::class, 'shop'])->name('shop');
 Route::get('/shop/edublock',[WelcomeController::class, 'edublock'])->name('shop.edublock');
 Route::get('/shop/schoolofiot',[WelcomeController::class, 'schoolofiot'])->name('shop.schoolofiot');
 Route::get('/edublock-digital-manual',[WelcomeController::class, 'edublockdigitalmanual'])->name('edublockdigitalmanual');
-//Route::get('/edublock-digital-manual/book',[WelcomeController::class, 'edublockdigitalmanualBook'])->name('edublockdigitalmanualbook');
+Route::get('/edublock-digital-manual/book',[WelcomeController::class, 'edublockdigitalmanualBook'])->name('edublockdigitalmanualbook');
 Route::get('/edublock-digital-manual/apk',[WelcomeController::class, 'apkDownload'])->name('apkdownload');
 
 //Press Release routes
