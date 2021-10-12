@@ -62,6 +62,9 @@
                                 <li>
                                     <a href="#">STEAM Training for Teachers</a>
                                 </li>
+                                <li>
+                                    <a href="{{route('edublockdigitalmanual')}}">EduBlock Digital Manual</a>
+                                </li>
 
                             </ul>
                         </div>
@@ -80,32 +83,34 @@
                                 <li>
                                     <a href="#">Robotics R&D</a>
                                 </li>
-
+                                <li>
+                                    <a href="">Admin</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3">
                             <h6 class="text-uppercase">Company</h6>
                             <ul>
                                 <li>
-                                    <a href="#">About us </a>
+                                    <a href="{{ route('aboutus') }}">About us </a>
                                 </li>
                                 <li>
-                                    <a href="#">Team </a>
+                                    <a href="{{ route('team') }}">Team </a>
                                 </li>
                                 <li>
-                                    <a href="#">Community Partner </a>
+                                    <a href="{{ route('comunity') }}">Community Partner </a>
                                 </li>
                                 <li>
-                                    <a href="#">Request for Partnership </a>
+                                    <a href="{{ route('partnership') }}">Request for Partnership </a>
                                 </li>
                                 <li>
-                                    <a href="#">Career </a>
+                                    <a href="{{ route('career') }}">Career </a>
                                 </li>
                                 <li>
-                                    <a href="#">FAQ  </a>
+                                    <a href="{{ route('faq') }}">FAQ  </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('register') }}">Sign Up</a>
+                                    <a href="{{ route('lms-faq') }}">LMS FAQ  </a>
                                 </li>
                             </ul>
                         </div>

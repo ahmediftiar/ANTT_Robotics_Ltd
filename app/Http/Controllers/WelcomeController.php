@@ -131,6 +131,42 @@ class WelcomeController extends Controller
     {
         return view('shop.edublockdigitalmanual');
     }
+    public function edublockdigitalmanualBook()
+    {
+        return view('shop.edublockdigitalmanualbook');
+    }
+    public function apkDownload()
+    {
+        return response()->download(file: 'assets/files/edubot-v2.0.0.apk');
+    }
 
-
+    //Footer Content Starts
+    public function aboutus()
+    {
+        return view('footer-content.aboutus');
+    }
+    public function team()
+    {
+        return view('footer-content.team');
+    }
+    public function comunity()
+    {
+        return view('footer-content.comunity');
+    }
+    public function partnership()
+    {
+        return view('footer-content.partnership');
+    }
+    public function career()
+    {
+        return view('footer-content.career');
+    }
+    public function faq()
+    {
+        return view('footer-content.faq');
+    }
+    public function LmsFaq()
+    {
+        return view('footer-content.lmsfaq');
+    }
 }

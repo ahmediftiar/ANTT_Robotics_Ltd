@@ -31,13 +31,15 @@ Route::get('/course/buildgames', [WelcomeController::class, 'buildgames'])->name
 Route::get('/course/soccerrobot', [WelcomeController::class, 'soccerrobot'])->name('course.soccerrobot');
 Route::get('/course/iotcar', [WelcomeController::class, 'iotcar'])->name('course.iotcar');
 
-//Course routes End
+//Shop routes
 Route::get('/shop',[WelcomeController::class, 'shop'])->name('shop');
 Route::get('/shop/edublock',[WelcomeController::class, 'edublock'])->name('shop.edublock');
 Route::get('/shop/schoolofiot',[WelcomeController::class, 'schoolofiot'])->name('shop.schoolofiot');
-Route::get('/edublockdigitalmanual ',[WelcomeController::class, 'edublockdigitalmanual'])->name('edublockdigitalmanual');
+Route::get('/edublock-digital-manual',[WelcomeController::class, 'edublockdigitalmanual'])->name('edublockdigitalmanual');
+//Route::get('/edublock-digital-manual/book',[WelcomeController::class, 'edublockdigitalmanualBook'])->name('edublockdigitalmanualbook');
+Route::get('/edublock-digital-manual/apk',[WelcomeController::class, 'apkDownload'])->name('apkdownload');
 
-//Press Release routes End
+//Press Release routes
 Route::get('/pressrelease', [WelcomeController::class, 'pressrelease'])->name('pressrelease');
 Route::get('/pressrelease/press1', [WelcomeController::class, 'press1'])->name('pressrelease.press1');
 Route::get('/pressrelease/press2', [WelcomeController::class, 'press2'])->name('pressrelease.press2');
@@ -54,3 +56,12 @@ Route::get('/solution', [WelcomeController::class, 'solution'])->name('solution'
 Route::get('/terms-and-conditions', [WelcomeController::class, 'termsAndConditions'])->name('terms-and-conditions');
 Route::get('/refund-policy', [WelcomeController::class, 'refundPolicy'])->name('refund-policy');
 Route::get('/privacy-policy', [WelcomeController::class, 'privacyPolicy'])->name('privacy-policy');
+
+//Footer Content routes
+Route::get('/about-us', [WelcomeController::class, 'aboutus'])->name('aboutus');
+Route::get('/team', [WelcomeController::class, 'team'])->name('team');
+Route::get('/comunity', [WelcomeController::class, 'comunity'])->name('comunity');
+Route::get('/partnership', [WelcomeController::class, 'partnership'])->name('partnership');
+Route::get('/career', [WelcomeController::class, 'career'])->name('career');
+Route::get('/faq', [WelcomeController::class, 'faq'])->name('faq');
+Route::get('/lms-faq', [WelcomeController::class, 'lmsFaq'])->name('lms-faq');
