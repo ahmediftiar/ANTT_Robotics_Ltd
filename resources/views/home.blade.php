@@ -248,7 +248,7 @@
                     <div class="col-md-12 col-lg-6">
                         <div class="feature-contents">
                             <h2 class="font-weight-bold">Robots to Blossom the Inventive Heads of Tomorrow</h2>
-                            <p>Welcome to ANTT Robotics STEAM School and
+                            <p class="text-justify">Welcome to ANTT Robotics STEAM School and
 Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity and Analytical Skills. Update Your Students, Teachers & School using Robotics Tools and AI based Learning Management System (LMS) to learn STEAM</p>
 
 <ul class="check-list-wrap py-3">
@@ -276,7 +276,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                     <div class="col-md-12 col-lg-6">
                         <div class="feature-contents section-heading">
                             <h2 class="font-weight-bold">AI based Learning Management System for Students & Schools</h2>
-                            <p>We are offering only for your children and students to learn properly. Our software will track your students progress & KPI to keep teachers more involved in child care and educating. We offer world class curriculum, source code, robotics tools, teachers training, IDE and LMS. All of those are in one software or ecosystem.</p>
+                            <p class="text-justify">We are offering only for your children and students to learn properly. Our software will track your students progress & KPI to keep teachers more involved in child care and educating. We offer world class curriculum, source code, robotics tools, teachers training, IDE and LMS. All of those are in one software or ecosystem.</p>
 
 
 
@@ -307,7 +307,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                     <div class="col-md-12 col-lg-6">
                         <div class="feature-contents">
                             <h2 class="font-weight-bold">Get Amazing Coding and Do-It-Yourself Experience Insight </h2>
-                            <p>We Love to Make It Wonderful To Experience. We have enriched our app with phenomenal arrangements of awesome coding experience for kids.Exciting gamified level, challenges and leader boards to keep you engaged.</p>
+                            <p class="text-justify">We Love to Make It Wonderful To Experience. We have enriched our app with phenomenal arrangements of awesome coding experience for kids.Exciting gamified level, challenges and leader boards to keep you engaged.</p>
 
                             <div class="action-btns mt-4">
                                 <a href="https://edublock.co/" target="_blank" class="btn btn-outline-brand-02">Start Now</a>
