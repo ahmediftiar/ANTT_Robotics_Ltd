@@ -209,7 +209,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-12 col-lg-6">
                         <div class="feature-contents section-heading">
-                            <h2 class="font-weight-bold">AI Based Solution to Makes Learning Fun</h2>
+                            <h2 class="font-weight-bold">AI Based Solution to Make Learning Fun</h2>
                             <p>Introducing Gamified AI-Learning Management System (LMS), Curriculum & Robots for Schools & Students to Learn Science, Technology, Engineering, Arts, Mathematics (STEAM).</p>
 
                             <ul class="check-list-wrap py-3">
@@ -217,7 +217,7 @@
                                 <li>Learning Basic Computer Science (CS) </li>
                                 <li>STEAM Curriculum for Schools & Teachers </li>
                                 <li>Artificial Intelligence - Learning Management System</li>
-                                <li>Gafied Robots and tools for Learning CS </li>
+                                <li>Gamified Robots and tools for Learning CS </li>
                                 <li>STEAM Courses for Students</li>
                             </ul>
 
@@ -426,7 +426,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                 </a>
                                 <div id="collapse0" class="collapse show" data-parent="#accordion" style="">
                                     <div class="card-body white-bg">
-                                        <p>For the people, family, students or makers ANTT Robotics has several Robots, tools and Toys. Play with thousands of Robotics devices and fabricate your fantasy projects.For the students or individuals ANTT Robotics developed gamified STEAM Robots, Mobile App and WebApp to learn quicker and more than without any problem. Find and Buy your ideal starter units from ANTT Shop.</p><br>
+                                        <p class="text-justify">For the people, family, students or makers ANTT Robotics has several Robots, tools and Toys. Play with thousands of Robotics devices and fabricate your fantasy projects.For the students or individuals ANTT Robotics developed gamified STEAM Robots, Mobile App and WebApp to learn quicker and more than without any problem. Find and Buy your ideal starter units from ANTT Shop.</p><br>
 
                                           <a href="#" class="btn btn-outline-brand-02 btn-rounded mb-3" target="_blank">Go to Shop</a>
                                     </div>
@@ -438,7 +438,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                 </a>
                                 <div id="collapse1" class="collapse " data-parent="#accordion" style="">
                                     <div class="card-body white-bg">
-                                        <p>As an Educator, you should need to know the fourth industrial revolution skills to instruct your students. To help educators everywhere in the world make the way for STEAM and Computer Science training compatible with the curriculum of NCTB, Edexcel and Cambridge Assessment International Examination (CAIE). Find our Educator program to become the best STEAM Teacher. </p><br>
+                                        <p class="text-justify">As an Educator, you should need to know the fourth industrial revolution skills to instruct your students. To help educators everywhere in the world make the way for STEAM and Computer Science training compatible with the curriculum of NCTB, Edexcel and Cambridge Assessment International Examination (CAIE). Find our Educator program to become the best STEAM Teacher. </p><br>
                                         <a href="#" class="btn btn-outline-brand-02 btn-rounded mb-3" target="_blank">Educator Program</a>
                                     </div>
                                 </div>
@@ -449,7 +449,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                 </a>
                                 <div id="collapse2" class="collapse " data-parent="#accordion" style="">
                                     <div class="card-body white-bg">
-                                        <p>ANTT Robotics has developed world class tools for the schools and research laboratories to learn STEAM with their individual curriculums. Providing all in-class items for the school to achieve STEAM, Computer Science, Programming and Robotics compatible with the curriculum of NCTB, Edexcel and Cambridge Assessment International Examination (CAIE). Robotics and Programming is the most ideal approach to acquaint understudies with STEAM training. Furthermore, to ensure that they appreciate it while completely understanding and holding every one of the ideas is by giving involved STEAM instruction. The most ideal approach to encourage advanced technology in the classroom is by making robotics learning packs a piece of the homeroom</p><br>
+                                        <p class="text-justify">ANTT Robotics has developed world class tools for the schools and research laboratories to learn STEAM with their individual curriculums. Providing all in-class items for the school to achieve STEAM, Computer Science, Programming and Robotics compatible with the curriculum of NCTB, Edexcel and Cambridge Assessment International Examination (CAIE). Robotics and Programming is the most ideal approach to acquaint understudies with STEAM training. Furthermore, to ensure that they appreciate it while completely understanding and holding every one of the ideas is by giving involved STEAM instruction. The most ideal approach to encourage advanced technology in the classroom is by making robotics learning packs a piece of the homeroom</p><br>
                                         <a href="#" class="btn btn-outline-brand-02 btn-rounded mb-3" target="_blank">Get Quote</a>
                                     </div>
                                 </div>
@@ -489,7 +489,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                                    <i class="fas fa-quote-right text-white"></i>
                                                </div>
                                                <div class="client-say text-dark">
-                                                   <p class="text-secondary">A great platform to play and learn programming skills ! Awesome, My Daughter can build a soccer robot now!ANTT Robotics loves the wonder generation of young and encourages them with phenomenal arrangements of awesome courses, tutorials & STEM kits </p>
+                                                   <p class="text-secondary text-justify">A great platform to play and learn programming skills ! Awesome, My Daughter can build a soccer robot now!ANTT Robotics loves the wonder generation of young and encourages them with phenomenal arrangements of awesome courses, tutorials & STEM kits </p>
                                                </div>
                                            </div>
                                        </div>
@@ -506,7 +506,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                                    <i class="fas fa-quote-right text-white"></i>
                                                </div>
                                                <div class="client-say text-white">
-                                                   <p class="text-secondary">Today we are rapidly running towards “The Fourth Industrial Revolution”. ANTT Robotics is a creative company born to lead this paradigm shift in the sectors of Industry Automation & Education.Industry Automation is a demand of time now.</p>
+                                                   <p class="text-secondary text-justify">Today we are rapidly running towards “The Fourth Industrial Revolution”. ANTT Robotics is a creative company born to lead this paradigm shift in the sectors of Industry Automation & Education.Industry Automation is a demand of time now.</p>
                                                </div>
                                            </div>
                                        </div>
@@ -523,7 +523,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                                                    <i class="fas fa-quote-right text-white"></i>
                                                </div>
                                                <div class="client-say text-white">
-                                                   <p class="text-secondary">In this techraising world we need to prepare ourselves and our beloved children for the next step of learning. ANTT Robotics is doing this obvious task using their awesome team for teaching programming and tech skills.</p>
+                                                   <p class="text-secondary text-justify">In this techraising world we need to prepare ourselves and our beloved children for the next step of learning. ANTT Robotics is doing this obvious task using their awesome team for teaching programming and tech skills.</p>
                                                </div>
                                            </div>
                                        </div>
