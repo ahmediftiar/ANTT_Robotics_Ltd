@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\ContactUsModel;
 
 class WelcomeController extends Controller
 {
@@ -78,6 +79,19 @@ class WelcomeController extends Controller
     {
         return view('shop.schoolofiot');
     }
+    public function edublockdigitalmanual()
+    {
+        return view('shop.edublockdigitalmanual');
+    }
+    public function edublockdigitalmanualBook()
+    {
+        return view('shop.edublockdigitalmanualbook');
+    }
+    public function apkDownload()
+    {
+        $file_path = public_path('assets/files/edubot-v2.0.0.apk');
+        return response()->download($file_path);
+    }
 
     //Press Release Start
     public function pressRelease()
@@ -98,22 +112,18 @@ class WelcomeController extends Controller
     {
         return view('pressrelease.press3');
     }
-
     public function press4()
     {
         return view('pressrelease.press4');
     }
 
+    //Solution Page
     public function solution()
     {
         return view('solution');
     }
 
-    public function register()
-    {
-        return view('user.register');
-    }
-
+    
     public function termsAndConditions()
     {
         return view('conditions.termsandconditions');
@@ -125,20 +135,6 @@ class WelcomeController extends Controller
     public function privacyPolicy()
     {
         return view('conditions.privacypolicy');
-    }
-
-    public function edublockdigitalmanual()
-    {
-        return view('shop.edublockdigitalmanual');
-    }
-    public function edublockdigitalmanualBook()
-    {
-        return view('shop.edublockdigitalmanualbook');
-    }
-    public function apkDownload()
-    {
-        $file_path = public_path('assets/files/edubot-v2.0.0.apk');
-        return response()->download($file_path);
     }
 
     //Footer Content Starts
@@ -154,10 +150,6 @@ class WelcomeController extends Controller
     {
         return view('footer-content.comunity');
     }
-    public function partnership()
-    {
-        return view('footer-content.partnership');
-    }
     public function career()
     {
         return view('footer-content.career');
@@ -170,4 +162,39 @@ class WelcomeController extends Controller
     {
         return view('footer-content.lmsfaq');
     }
+    public function partnership()
+    {
+        return view('footer-content.partnership');
+    }
+    public function partnershipSave(Request $request)
+    {
+        $request->validate([
+            'name'=>'required|min:3|max:16' ,
+            'email'=>'required|email',
+            'phone'=>'required|min:11|max:11',
+            'organization'=>'required|min:3|max:52',
+            'message'=>'required|min:5|max:256',
+        ]);
+        $contact = new ContactUsModel();
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->phone = $request->phone;
+        $contact->organization = $request->organization;
+        $contact->message = $request->message;
+        $contact->save();
+        $request->session()->put('success11', "1");
+        return redirect()->route('partnership');
+
+    }
+
+    public function new1()
+    {
+        return view('newdashboard');
+    }
+
+    public function new2()
+    {
+        return view('newdashboard2');
+    }
+
 }

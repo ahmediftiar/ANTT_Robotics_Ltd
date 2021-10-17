@@ -249,16 +249,11 @@
 
                         <!-- Comments area-->
                         <div class="comments-area mb-5">
-                            <div class="comment-respond">
-                                <p class="comment-notes">Before start course,please registration</p>
-                                <form class="comment-form row" method="get" target="_blank" action="https://digitaldokan.shop/product/Build-your-IoT-Car-with-School-Of-IoT-78728">
-                                   
-                                    <div class="form-submit col-md-12">
-                                        <button class="btn btn-brand-02" type="submit">Enroll Now</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                          <div class="comment-respond">
+                              <p class="comment-notes">Before start course,please registration</p>
+                              <a class="btn btn-brand-02" href="{{ route('orderform', ['name'=> 'Build your IoT Car with School Of IoT', 'category' => 'Course', 'price' => 10000, 'image' => 'https://edublock.co/anttaset/iotcar%281110x512%29.jpg']) }}">Enroll Now</a>
+                          </div>
+                      </div>
                         <!-- Comments area end-->
                     </div>
                 </div>

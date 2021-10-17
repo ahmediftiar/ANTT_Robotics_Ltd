@@ -31,6 +31,35 @@
 <link href="{{ asset('/assets/css/customstyle.css') }}" rel="stylesheet" />
 <script data-ad-client="ca-pub-9655498260594882" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161682547-1"></script>
+<style>
+    .btnsubmit {
+        background: #ffc403;
+  background-image: -webkit-linear-gradient(top, #f7c100, #ed9200);
+  background-image: -moz-linear-gradient(top, #f7c100, #ed9200);
+  background-image: -ms-linear-gradient(top, #f7c100, #ed9200);
+  background-image: -o-linear-gradient(top, #f7c100, #ed9200);
+  background-image: linear-gradient(to bottom, #f7c100, #ed9200);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btnsubmit:hover {
+    background: #ed9200;
+  background-image: -webkit-linear-gradient(top, #ed9200, #f7c100);
+  background-image: -moz-linear-gradient(top, #ed9200, #f7c100);
+  background-image: -ms-linear-gradient(top, #ed9200, #f7c100);
+  background-image: -o-linear-gradient(top, #ed9200, #f7c100);
+  background-image: linear-gradient(to bottom, #ed9200, #f7c100);
+  text-decoration: none;
+}
+</style>
 
 </head>
 
@@ -49,60 +78,62 @@
                 <p class="text-justify text-dark">For any information, you can get in touch with us using your contact information or by filling in the contact form below. Please fill in your details and we will get back to you at our earliest convenience.</p>
             </ol>
             <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <form action="" method="POST">
+                <div class="col-md-2 d-md-block d-none"></div>
+                <div class="col-md-8 col-sm-12">
+                    <form action="{{route('partnership')}}" method="POST">
                         @csrf
                             <div class="row mt-2">
-                                <div class="col-md-12"><label class="labels">Your Name <label class="text-danger h6">*</label></label>
-                                    <input type="text" name="studentname" class="form-control" value="">
+                                <div class="col-md-12"><p class="labels mb-0 text-left text-dark">Your Name</p>
+                                    <input type="text" name="name" class="form-control" value="{{ old('name') }}">
                                 </div>
                             </div>
-                            @error('studentname')
+                            @error('name')
                                 <span class="text-danger" role="alert">
                                     <strong style="font-size: 12px;">{{ $message }}</strong>
                                 </span>
                             @enderror
                             <div class="row mt-3">
-                                <div class="col-md-12">
-                                    <label class="labels">Email Address <label class="text-danger h6">*</label></label>
-                                    <input type="text" name="phone" class="form-control" value="">
+                                <div class="col-md-12"><p class="labels mb-0 text-left text-dark">Email Address</p>
+                                    <input type="text" name="email" class="form-control" value="{{ old('email') }}">
                                 </div>
-                                @error('phone')
-                                    <span class="text-danger" role="alert">
-                                        <strong class="ml-3" style="font-size: 12px;">{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                                <div class="col-md-12">
-                                    <label class="labels">Contact Number<label class="text-danger h6">*</label></label>
-                                    <input type="text" name="school" class="form-control" value="">
-                                </div>
-                                @error('school')
-                                    <span class="text-danger" role="alert">
-                                        <strong class="ml-3" style="font-size: 12px;">{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                                <div class="col-md-12">
-                                    <label class="labels">What is your Organization? <label class="text-danger h6">*</label></label>
-                                    <input type="text" name="class" class="form-control" value="">
-                                </div>
-                                @error('class')
-                                    <span class="text-danger" role="alert">
-                                        <strong class="ml-3" style="font-size: 12px;">{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                                <div class="col-md-12">
-                                    <label class="labels">Your Message<label class="text-danger h6">*</label></label>
-                                    <input type="text" name="address" class="form-control" value="">
-                                </div>
-                                @error('address')
-                                    <span class="text-danger" role="alert">
-                                        <strong class="ml-3" style="font-size: 12px;">{{ $message }}</strong>
-                                    </span>
-                                @enderror
                             </div>
+                            @error('email')
+                                <span class="text-danger" role="alert">
+                                    <strong style="font-size: 12px;">{{ $message }}</strong>
+                                </span>
+                            @enderror
+                            <div class="row mt-3">
+                                <div class="col-md-12"><p class="labels mb-0 text-left text-dark">Phone Number</p>
+                                    <input type="text" name="phone" class="form-control" value="{{ old('phone') }}">
+                                </div>
+                            </div>
+                            @error('phone')
+                                <span class="text-danger" role="alert">
+                                    <strong style="font-size: 12px;">{{ $message }}</strong>
+                                </span>
+                            @enderror
+                            <div class="row mt-3">
+                                <div class="col-md-12"><p class="labels mb-0 text-left text-dark">What is your Organization?</p>
+                                    <input type="text" name="organization" class="form-control" value="{{ old('organization') }}">
+                                </div>
+                            </div>
+                            @error('organization')
+                                <span class="text-danger" role="alert">
+                                    <strong style="font-size: 12px;">{{ $message }}</strong>
+                                </span>
+                            @enderror
+                            <div class="row mt-3">
+                                <div class="col-md-12"><p class="labels mb-0 text-left text-dark">Your Message</p>
+                                    <textarea class="form-control" name="message" placeholder="" value="{{ old('message') }}" rows="7" data-form-field="Message"></textarea>
+                                </div>
+                            </div>
+                            @error('message')
+                                <span class="text-danger" role="alert">
+                                    <strong style="font-size: 12px;">{{ $message }}</strong>
+                                </span>
+                            @enderror
                             <div class="mt-5 text-center">
-                                <input class="btn btn-outline-success text-dark ml-2" type="submit" id="submit" value="Submit">
+                                <button class="btnsubmit" type="submit" id="submit" value="">Contact Us</button>
                             </div>
                             
                     </form>
@@ -113,11 +144,26 @@
     </div>
 </div>
 
-
 @include('layout.footer')
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        @if(Session::has('success11'))
+        <script>
+            swal({
+               title: "Your message has been sent.",
+               text: "You will contact with you soon!",
+               icon: "success",
+               button: "OK",
+            }).then(function() {
+               window.location = "/";
+               <?php
+                  Session::forget('success11');
+               ?>
+            });
+         </script>
+        @endif
 
-<!--new add-->
 <script src="{{ asset('/assets/js/vendors/jquery.js') }}"></script>
 <script src="{{ asset('/assets/js/vendors/bootstrap1.min.js') }}" />
 <script src="{{ asset('/assets/js/vendors/bootstrap.min.js') }}"></script>

@@ -41,11 +41,9 @@
                                 <li>
                                     <a href="#">STEAM School Setup</a>
                                 </li>
-                                <li>
-                                    <a href="#">DIY Projects</a>
-                                </li>
-
+                               
                             </ul>
+                            
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
                             <h6 class="text-uppercase">Edtech Products</h6>
@@ -84,7 +82,7 @@
                                     <a href="#">Robotics R&D</a>
                                 </li>
                                 <li>
-                                    <a href="">Admin</a>
+                                    <a href="{{ route('admin.login') }}">Admin</a>
                                 </li>
                             </ul>
                         </div>
@@ -117,6 +115,11 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center app">
+                <h5>EduBlock - Learning STEAM</h5>
+                <a href="https://play.google.com/store/apps/details?id=co.edublock&hl=en&gl=US" target="_blank"><img class="playstoreicon" src="https://edublock.co/anttaset/googleplay.png"></a>
+                <a href="#"><img class="appstoreicon" src="https://edublock.co/anttaset/appstore.png"></a>
+            </div>
         </div>
         <!--end of container-->
     </footer>
@@ -127,7 +130,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-7">
                     <div class="copyright-wrap small-text">
-                        <p class="mb-0">&copy; Anttrobotics Theme Agency, All rights reserved</p>
+                        <p class="mb-0">&copy; Anttrobotics LTD, All rights reserved</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-5">

@@ -237,11 +237,7 @@
                             <div class="comments-area mb-5">
                                 <div class="comment-respond">
                                     <p class="comment-notes">Before start course,please registration</p>
-                                    <form class="comment-form row" method="get" target="_blank" action="https://digitaldokan.shop/product/scratch-programming-for-kids-47047">            
-                                        <div class="form-submit col-md-12">
-                                            <button class="btn btn-brand-02" type="submit">Enroll Now</button>
-                                        </div>
-                                    </form>
+                                    <a class="btn btn-brand-02" href="{{ route('orderform', ['name'=> 'Scratch Programming for Kids', 'category' => 'Course', 'price' => 3000, 'image' => 'https://edublock.co/anttaset/Scratch1110x512.jpg']) }}">Enroll Now</a>
                                 </div>
                             </div>
                         </div>

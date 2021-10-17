@@ -242,16 +242,11 @@
 
                         <!-- Comments area-->
                         <div class="comments-area mb-5">
-                            <div class="comment-respond">
-                                <p class="comment-notes">Before start course,please registration</p>
-                                <form class="comment-form row" method="get" target="_blank" action="https://digitaldokan.shop/product/Basic-Robotics-using-Scratch-Coding-Soccer-Robot-17032">
-                                   
-                                    <div class="form-submit col-md-12">
-                                        <button class="btn btn-brand-02" type="submit">Enroll Now</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                          <div class="comment-respond">
+                              <p class="comment-notes">Before start course,please registration</p>
+                              <a class="btn btn-brand-02" href="{{ route('orderform', ['name'=> 'Basic Robotics using Scratch Coding (Soccer Robot)', 'category' => 'Course', 'price' => 6000, 'image' => 'https://edublock.co/anttaset/basicrobotics%281110x512%29.jpg']) }}">Enroll Now</a>
+                          </div>
+                      </div>
                         <!-- Comments area end-->
                     </div>
                 </div>

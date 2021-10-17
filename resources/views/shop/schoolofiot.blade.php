@@ -20,7 +20,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="google-site-verification" content="z8eugNKi33OtVizosZQ5-bw5HKKo_uMibPyKUkvxVmU">
 
-<title>Facilitate Industry 4.0</title>
+<title>School of IoT | Shop | Facilitate Industry 4.0 | ANTT Robotics Ltd.</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -99,8 +99,8 @@
                   <img src="https://edublock.co/anttaset/product-asset/edublock/Reviewicons.png">
                 </div>
                 <div class="col-6">
-                  <!-- <p class="font-weight-bold" style="color: black;">Price</p>
-                  <span class="product-price"><del class="text-muted">BDT 9499</del> BDT 8499</span> -->
+                  {{-- <p class="font-weight-bold" style="color: black;">Price</p>
+                  <span class="product-price"><del class="text-muted">BDT 9499</del> BDT 8499</span> --}}
                 </div>
               </div>
               <ul class="check-list-wrap text-left">
@@ -112,15 +112,37 @@
                 <li>Free gamified learning guide with lots of exciting DIY projects.</li>
             </ul>
             <div class="action-btns mt-4">
+              <button type="button" class="btn btn-brand-02" data-toggle="modal" data-target="#exampleModalCenter">
+                Buy Now
+              </button>
               <!-- <a href="#" target="_blank" class="btn btn-brand-02 mr-3">Start Now</a> -->
-              <a href="#" target="_blank" class="btn btn-outline-brand-02">Buy Now</a>
+              {{-- <a class="btn btn-brand-02" href="{{ route('orderform', ['name'=> 'School of Iot', 'category' => 'Product', 'price' => 10, 'image' => 'https://edublock.co/anttaset/product-asset/schoolofiot/2.png']) }}">Buy Now</a> --}}
           </div>
             </div>
           </div>
         </div>                                          
       </div>
     </section>
-
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Buy School of IoT</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="text-center text-dark">For Buying School of IoT Please contact with us</p>
+            <p class="text-center text-dark"><strong>E-mail:</strong> anttrobotics@gmail.com</p>
+            <p class="text-center text-dark"><strong>Contact Number:</strong> +8801925-770036</p>
+          </div>
+          <div class="modal-footer">
+            <a href="{{route('partnership')}}" class="btn btn-secondary btn-sm">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="d-lg-block d-none">
       <div class="">
         <div class="container">

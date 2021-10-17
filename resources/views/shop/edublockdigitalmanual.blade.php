@@ -69,7 +69,11 @@
                                 <a class="nav-link" href="{{ route('pressrelease') }}">Press Release</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://forms.gle/JqvVwwJDU69XVzzFA" target="_blank" class="page-scroll">Sign Up</a>
+                                @if(Session::has('email'))
+                                    <a class="nav-link" href="{{route('dashboard')}}" class="page-scroll">My Account</a>
+                                @else
+                                    <a class="nav-link" href="{{route('login')}}" class="page-scroll">Sign in</a>
+                                @endif
                             </li>
                         </ul>                
                                 
