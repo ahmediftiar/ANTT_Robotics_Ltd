@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-12 press">
                     <div class="press01">
-                        <img src="https://edublock.co/anttaset/pressimage/press1image1.png" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press1image1.png') }}"style="max-width: 100%; padding: 20px 0;">
                         <h5>ANTT Robotics Raises Angel Round to Accelerate International Expansion</h5>
                         <p class="pressdate">12 August 2021 / Seoul, South Korea</p>
                         <p>&emsp;&emsp;&emsp; ANTT Robotics started their journey in early 2019 Based in Dhaka, Bangladesh. Our patent-pending designed system has been developed with the help of our 8,000 strong STEAM community members. Our team is comprised of seasoned R&D, technology, hardware, software & business analysis specialists with vast experience gained from working with reputed local & multinational companies. Our team also has a robust local network comprised of very strong ties with maker labs, universities & educators.<br><br>&emsp;&emsp;&emsp;ANTT Robotics Ltd. is a Top 05 startup chosen amongst 3147 startups in Bangladesh, and is about to finish their six month incubation in Seoul, South Korea under Korean Productivity Center (KPC) and Korean Promotion Association (KIPA) this August. In the last few months, two founding members have been taking part from ANTT Robotics Ltd. and have successfully filed for their first patent, as well as being the only company able to raise Angel Investment for the development of one the most crucial missing pieces in the modern education field of Bangladesh, entitled ‘Artificial Intelligence Based Learning Management System’. The system has been validated by their own designed Robotics STEM tools in (04) Four Seoul Based Elementary School student pilot programs which also helped ANTT to develop ‘Bangladesh National Curriculum’ friendly Courses for Learning Robotics and Programming for Embedded Systems. To expedite their international scaling and marketing process, the team has been joined by Ms. Jayme Brown and Mr. Andrei Calinescu.<br><br> &emsp;&emsp;&emsp;Jayme has over 19 years of experience working in the education sector, as education is her passion. She has been focused on finding vital and viable educational solutions for teachers and students that will really help technology companies with scalability and growth. Her involvement includes financial investment for international marketing and scaling which has already allowed for a product supply pipeline of 200 pieces of STEAM Robotics tools as well as software and education services in Singapore, Malaysia and other South Asian countries, and we are having preliminary communications within South Korea, Egypt, and Bangladesh.</p>
@@ -77,14 +77,14 @@
                         <blockquote class="sidekick">
                          I have been looking into the evolving Edtech market for many years now and I understand the value of STEAM education in the 4th industrial revolution and its impact on changing education trends and job markets all over the world. ANTT has a unique approach to add value to the education pipeline as well as on-the-job, vocational training for both young boys and girls growing up today and in future generations. The team is charismatic, exciting and humble, which is why I am very honoured and excited to join them to help them reach their goals. Education is a powerful tool and moving forward we endeavor to do great work with communities all around the world. ANTT is dedicated to providing quality educational experiences and improving the future of education and the industry for students from all walks of life. I am so very happy to be able to join them on this adventure!<cite> Ms Jayme Brown</cite>
                         </blockquote><br><br>
-                        <img src="https://edublock.co/anttaset/pressimage/press1image2.png" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press1image2.png')  }}" style="max-width: 100%; padding: 20px 0;">
                        <p>&emsp;&emsp;&emsp;
                            Andrei has joined the ANTT Robotics team as an Advisor. Throughout his career spanning 3 continents he has always focused on optimizing the user experience and using cutting edge technology to improve lives. His background includes science, engineering, edu-tech coding solutions, entrepreneurship, mentorship, robotics, and modern fabrication. At ANTT Robotics, he will help ensure the learning experience is elevated by every new feature and change.
                        </p><br><br>
                        <blockquote class="sidekick">
                          Technology has always excited me. After using and evaluating countless edu-tech and coding solutions, it's clear that ANTT Robotics' approach to education is what we need in a rapidly changing environment. Their dream team has the right blend of intelligence, experience, passion, and work ethic to be a success. Their approach to multi-modal learning will improve outcomes and spark kids' curiosity. I was impressed by their evidence-based approach and uncompromising drive to improve education for students, teachers, and parents. With technology and AI we can produce the next generations of experts to tackle the hard problems. I'm looking forward to contributing to a future where education will be more effective, engaging, personalized, and equitable thanks to ANTT Robotics. I will do my best to help them unlock limitless opportunities for young minds everywhere!<cite>Mr Andrei Calinescu</cite>
                         </blockquote><br><br>
-                        <img src="https://edublock.co/anttaset/pressimage/press1image3.png" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press1image3.png')  }}" style="max-width: 100%; padding: 20px 0;">
                         <p>&emsp;&emsp;&emsp;The next step for ANTT Robotics Ltd. is focusing on the refurbishment and expansion of their Edu-Tech ecosystem to provide students with experiential hands-on learning to enhance practical knowledge to better equip them for a career in science and engineering.
                         <br><br>&emsp;&emsp;&emsp;The team is laser focused on addressing this lack of skill market which aligns with UN’s SDG4 because the value of education in any field, to survive in general, is a basic need. So it is more important to approach this sector with relevant ideas and innovations as we all can witness that in the coming years the 4th Industrial Revolution will be the peak time to familiarize this generation with basic programming skills as part of education. Education and quality education are two separate concepts and as The UN addresses this goal, we synchronize our service according to its importance. 
                         </p>
@@ -118,28 +118,28 @@
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/basis.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/basis.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ict.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ict.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/Bhtp.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/Bhtp.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ideaa.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ideaa.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/incube.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/incube.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/kkpc.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>

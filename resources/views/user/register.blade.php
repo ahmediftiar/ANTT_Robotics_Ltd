@@ -44,14 +44,16 @@
                         <strong style="font-size: 12px;">{{ $message }}</strong>
                      </span>
                   @enderror
+                  
                   <div class="field">
-                     <input type="password" name="password" placeholder="Password" >
+                     <input type="password" id="password" name="password" placeholder="Password" >
                   </div>
                   @error('password')
                      <span class="text-danger" role="alert">
                         <strong style="font-size: 12px;">{{ $message }}</strong>
                      </span>
-                  @enderror
+                  @enderror 
+                  <span id="pass" style="font-size: 12px; display: none;">*Password at least 4 characters</span>
                   <div class="field btn">
                      <div class="btn-layer"></div>
                      <input type="submit" id="submit" value="Sign Up">
@@ -89,6 +91,18 @@
                ?>
             });
          </script>
-      @endif      
+      @endif 
+      
+      <script>
+         $(document).ready(function(){
+            var i = 0;
+            $('input[type="password"]').focus(function(){
+               $("#pass").show();
+            });
+            $('input[type="password"]').blur(function(){
+               $("#pass").hide();
+            });
+         });
+      </script>
    </body>
 </html>

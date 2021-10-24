@@ -106,7 +106,7 @@
           <div class="col-md-9 col-12 d-block d-md-block">
 
             <h3 class="text-center">Edublock Digital Manual</h3>
-            <img src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock02.jpg" style="max-width: 100%; padding: 20px 0;">
+            <img src="{{ asset('/assets/images/shop/edublockdigital02.jpg') }}" style="max-width: 100%; padding: 20px 0;">
 
             <div class="" id="manual1">
               <h5>What is EduBlock?</h5>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="col-12 col-md-6 text-center">
                   <p class="mt-4 mt-md-0">Download from ANTT Robotics Website</p>
-                  <a class="p-5" href="{{route('apkdownload')}}"><img class="playstore11" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublockicon.png"></a>
+                  <a class="p-5" href="{{route('apkdownload')}}"><img class="playstore11" src="{{ asset('/assets/images/shop/edublockicon.png') }}"></a>
                 </div>
               </div>
             </div><br><br>
@@ -131,7 +131,7 @@
             <div class="" id="manual2">
               <h5>EduBlock - Robots Details </h5>
               <hr>
-              <img src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock03.png" style="max-width: 100%; padding: 20px 0;">
+              <img src="{{ asset('/assets/images/shop/edublockdigital03.png') }}" style="max-width: 100%; padding: 20px 0;">
               <ul style="list-style-type: disc; list-style-position: inside;">
                 <li class="text-justify ml-md-5">Robotics STEAM Toy for learning Programming languages and Robotics.</li>
                 <li class="text-justify ml-md-5">Do yourself Code and make a lot of projects like Soccer Robot, Line follower, Distance Measurement Robot and so on.</li>
@@ -145,16 +145,16 @@
             <div class="" id="manual3">
               <h5>Sensors Details </h5><hr>
               <ul style="list-style-type: disc; list-style-position: inside;" class="text-center">
-                <img class="playstore" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock04.png"><br><br><span>MQ2 Gas Sensor</span><br><br>
+                <img class="playstore" src="{{ asset('/assets/images/shop/edublockdigital04.png') }}"><br><br><span>MQ2 Gas Sensor</span><br><br>
                 <li class="text-justify ml-md-5">Target Gas: Smoke/ Combustible Gas.</li>
                 <li class="text-justify ml-md-5">Detection Range: 300～10000ppm(flammable gas).</li>
                 <li class="text-justify ml-md-5">Application: domestic gas leakage alarm, portable gas detector.</li><br>
-                <img class="playstore" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock05.png"><br><br>
+                <img class="playstore" src="{{ asset('/assets/images/shop/edublockdigital05.png') }}"><br><br>
                 <li class="text-justify ml-md-5">Resistance : 400 ohm to 400 Kohm.</li>
                 <li class="text-justify ml-md-5">Normal resistance variation: 1 Kohm to 10 Kohm.</li>
                 <li class="text-justify ml-md-5">Sensitivity: about 3msec (Sensitivity is defined as the time taken for output to change when input changes.</li>
                 <li class="text-justify ml-md-5"> Voltage ratings: used it on 3V, 5V and 12V.</li><br>
-                <img class="playstore" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock06.jpg"><br><br>
+                <img class="playstore" src="{{ asset('/assets/images/shop/edublockdigital06.jpg') }}"><br><br>
                 <li class="text-justify ml-md-5">Detection distance: 2 ~ 30cm</li>
                 <li class="text-justify ml-md-5">Detection angle: 35 °</li>
                 <li class="text-justify ml-md-5">Comparator chip: LM393</li>
@@ -171,9 +171,9 @@
                 <li class="text-justify ml-md-5">A new device named “Edubot 3.0.0” will be shown on Bluetooth.</li>
                 <li class="text-justify ml-md-5">The Edublock Bluetooth is paired with your phone now.</li>
                 <li class="text-justify ml-md-5">Go to the Edublock app you have installed before. </li><br>
-                <img class="eduapp" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock07.png"><br><br>
+                <img class="eduapp" src="{{ asset('/assets/images/shop/edublockdigital07.png') }}"><br><br>
                 <p class="text-justify text-dark ml-md-5">Click on the top right corner and you will see “Edubot 3.0.0” .Tap on it and the Edublock will be connected with your phone successfully.</p><br>
-                <img class="eduapp" src="https://edublock.co/anttaset/product-asset/edublockdigital/edublock08.png"><br><br>
+                <img class="eduapp" src="{{ asset('/assets/images/shop/edublockdigital08.png') }}"><br><br>
               </ol>
             </div>
 

@@ -94,15 +94,15 @@
                                 </div>
                                 <ul>
                                     <li class="clearfix">
-                                        <div class="wi"><a href="#"><img src="https://edublock.co/anttaset/Scratch600x400.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
+                                        <div class="wi"><a href="#"><img src="{{ asset('/assets/images/course/Scratch600x400.jpg') }}" alt="recent post" class="img-fluid rounded" /></a></div>
                                         <div class="wb"><a href="https://www.anttrobotics.com/course/scratchprograms">Scratch Programming for Kids</a><span class="post-date">Jul 8, 2021</span></div>
                                     </li>
                                     <li class="clearfix">
-                                        <div class="wi"><a href="#"><img src="https://edublock.co/anttaset/Robotics%20with%20Arduino600x400.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
+                                        <div class="wi"><a href="#"><img src="{{ asset('/assets/images/course/RoboticswithArduino600x400.jpg') }}" alt="recent post" class="img-fluid rounded" /></a></div>
                                         <div class="wb"><a href="https://www.anttrobotics.com/course/basicarduino">Robotics with Arduino</a><span class="post-date">Jul 12, 2021</span></div>
                                     </li>
                                     <li class="clearfix">
-                                        <div class="wi"><a href="#"><img src="https://edublock.co/anttaset/IoT600x400.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
+                                        <div class="wi"><a href="#"><img src="{{ asset('/assets/images/course/IoT600x400.jpg') }}" alt="recent post" class="img-fluid rounded" /></a></div>
                                         <div class="wb"><a href="https://www.anttrobotics.com/course/programmingkids">Basic Internet of Things(IOT) with School of IoT</a><span class="post-date">Jul 5, 2021</span></div>
                                     </li>
                                 </ul>
@@ -133,7 +133,7 @@
                     <div class="col-lg-8 col-md-8">
                         <!-- Post-->
                         <article class="post">
-                            <div class="post-preview"><img src="https://edublock.co/anttaset/basicrobotics%281110x512%29.jpg" alt="article" class="img-fluid" /></div>
+                            <div class="post-preview"><img src="{{ asset('/assets/images/course/basicrobotics1110x512.jpg') }}" alt="article" class="img-fluid" /></div>
                             <div class="post-wrapper">
                                 <div class="post-header">
                                     <h1 class="post-title">Basic Robotics using Scratch Coding (Soccer Robot)</h1>

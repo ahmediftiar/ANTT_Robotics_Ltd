@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <img src="https://edublock.co/anttaset/product-asset/edublock/Edublock.png">
+                    <img src="{{ asset('/assets/images/shop/Edublock.png') }}">
                 </div>
                 <div class="col-sm-12 col-md-6 right1">
                     <h1>EduBlock</h1>
@@ -65,7 +65,7 @@
             <div class="space"></div>
             <div class="space"></div>
             <div class="playbutton">
-              <a href="https://www.youtube.com/embed/zRuzBecFq4s" target=”_blank” class="mx-auto"><img src="https://edublock.co/anttaset/product-asset/edublock/plybutton.png"> </a>
+              <a href="https://www.youtube.com/embed/zRuzBecFq4s" target=”_blank” class="mx-auto"><img src="{{ asset('/assets/images/shop/plybutton.png') }}"> </a>
             </div>
             <div class="space"></div>
             <div class="space"></div>
@@ -79,16 +79,16 @@
             <div class="col-lg-6 col-12">
               <div class="track">
                 <ul>
-                  <li id="slide1"><img src="https://edublock.co/anttaset/product-asset/edublock/p2.png"></li>
-                  <li id="slide2"><img src="https://edublock.co/anttaset/product-asset/edublock/p1.png"></li>
-                  <li id="slide3"><img src="https://edublock.co/anttaset/product-asset/edublock/p4.png"></li>
+                  <li id="slide1"><img src="{{ asset('/assets/images/shop/p2.png') }}"></li>
+                  <li id="slide2"><img src="{{ asset('/assets/images/shop/p1.png') }}"></li>
+                  <li id="slide3"><img src="{{ asset('/assets/images/shop/p4.png') }}"></li>
                   
                 </ul>
               </div><br>
               <div class="slides">
-                <a href="#slide1"><img src="https://edublock.co/anttaset/product-asset/edublock/p2.png"></a>
-                <a href="#slide2"><img src="https://edublock.co/anttaset/product-asset/edublock/p1.png"></a>
-                <a href="#slide3"><img src="https://edublock.co/anttaset/product-asset/edublock/p4.png"></a>
+                <a href="#slide1"><img src="{{ asset('/assets/images/shop/p2.png') }}"></a>
+                <a href="#slide2"><img src="{{ asset('/assets/images/shop/p1.png') }}"></a>
+                <a href="#slide3"><img src="{{ asset('/assets/images/shop/p4.png') }}"></a>
               </div>
             </div>
             <div class="col-lg-6 col-12 text-center">
@@ -96,7 +96,7 @@
               <p class="mb-5 font-weight-bold">Coding Learning Robot</p>
               <div class="row" style="height:120px;">
                 <div class="col-6 staricon">
-                  <img src="https://edublock.co/anttaset/product-asset/edublock/Reviewicons.png">
+                  <img src="{{ asset('/assets/images/shop/Reviewicons.png') }}">
                 </div>
                 <div class="col-6">
                   {{-- <p class="font-weight-bold" style="color: black;">Price</p>
@@ -156,7 +156,7 @@
             <div class="col-lg-6 track1" >
               <div class="">
                 <ul>
-                  <li id=""><img src="https://edublock.co/anttaset/product-asset/edublock/image1101.png"></li>
+                  <li id=""><img src="{{ asset('/assets/images/shop/image1101.png') }}"></li>
                 </ul>
               </div>
             </div>
@@ -178,7 +178,7 @@
             <div class="col-12 track2" >
               <div class="">
                 <ul>
-                  <li id=""><img src="https://edublock.co/anttaset/product-asset/edublock/image1101.png"></li>
+                  <li id=""><img src="{{ asset('/assets/images/shop/image1101.png') }}"></li>
                 </ul>
               </div>
             </div>
@@ -194,19 +194,19 @@
           <h1 class="text-center font-weight-bold mb-4">Why EduBlock !</h1>
           <div class="row">
             <div class="col-lg-3 col-6">
-              <img src="https://edublock.co/anttaset/product-asset/edublock/ICON 1.png" class="d-block m-auto">
+              <img src="{{ asset('/assets/images/shop/ICON 1.png') }}" class="d-block m-auto">
               <p class="text-center">Plug & Play Smart Toy</p>
             </div>
             <div class="col-lg-3 col-6">
-              <img src="https://edublock.co/anttaset/product-asset/edublock/ICON%202.png"  class="d-block m-auto">
+              <img src="{{ asset('/assets/images/shop/ICON 2.png') }}"  class="d-block m-auto">
               <p class="text-center">DIY Tools - Customization</p>
             </div>
             <div class="col-lg-3 col-6">
-              <img src="https://edublock.co/anttaset/product-asset/edublock/ICON 3.png"  class="d-block m-auto">
+              <img src="{{ asset('/assets/images/shop/ICON 3.png') }}"  class="d-block m-auto">
               <p class="text-center">Graphical Coding</p>
             </div>
             <div class="col-lg-3 col-6">
-              <img src="https://edublock.co/anttaset/product-asset/edublock/ICON 4.png"  class="d-block m-auto">
+              <img src="{{ asset('/assets/images/shop/ICON 4.png') }}"  class="d-block m-auto">
               <p class="text-center">Best For Beginners</p>
             </div>
           </div>
@@ -222,13 +222,13 @@
                 <div>
                   <h2 class="mt-3">First Control Your Robot </h2>
                   <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                    <img src="https://edublock.co/anttaset/product-asset/edublock/shots_1.png" alt="Image" class="img-fluid">
+                    <img src="{{ asset('/assets/images/shop/shots_1.png') }}" alt="Image" class="img-fluid">
                   </div>
                   <p class="lead">With Edublocks, the basics are super simple with plenty of tutorials. The first step toward robotics would be to control the robot from the app. And it comes with a small enjoyable challenge. You have to figure out how to program the controlling scheme. And as always there’ll be tutorials to assist.</p>
                 </div>
               </div>
                 <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-                    <img src="https://edublock.co/anttaset/product-asset/edublock/shots_1.png" alt="Image" class="img-fluid">
+                    <img src="{{ asset('/assets/images/shop/shots_1.png') }}" alt="Image" class="img-fluid">
                 </div>
             </div>
           </div>
@@ -238,13 +238,13 @@
           <div class="container">
             <div class="row align-items-center justify-content-between">
               <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-                <img src="https://edublock.co/anttaset/product-asset/edublock/shots_3.png" alt="Image" class="img-fluid">
+                <img src="{{ asset('/assets/images/shop/shots_3.png') }}" alt="Image" class="img-fluid">
               </div>
               <div class="col-12 col-lg-6 col-xl-5">
                 <div> 
                   <h2 class="mt-3">Milestone and Gamified Learning </h2>
                   <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                    <img src="https://edublock.co/anttaset/product-asset/edublock/shots_3.png" alt="Image" class="img-fluid">
+                    <img src="{{ asset('/assets/images/shop/shots_3.png') }}" alt="Image" class="img-fluid">
                   </div>
                   <p class="lead">The learning process is enjoyably gamified with milestones. There will be an interactive environment which prompts to complete the set of challenges to reach the next milestone. So learning will be amazing and would imprint the robotics realm and it’s basics on heart. It’s simply - Play Hard and Learn Easy.</p>
                 </div>
@@ -259,13 +259,13 @@
                 <div>
                   <h2 class="mt-3">Advanced Coding C, Python, MicroPython</h2>
                   <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                    <img src="https://edublock.co/anttaset/product-asset/edublock/shots_2.png" alt="Image" class="img-fluid">
+                    <img src="{{ asset('/assets/images/shop/shots_2.png') }}" alt="Image" class="img-fluid">
                   </div>
                   <p class="lead">ANTT Robotics has prepared phenomenal arrangements of awesome courses and tutorials for onboarding on the Programming Realm and IoT Realm. With a proficiency in C , Python &amp; IoT you will be career ready to embark on the wonderful journey of the fourth industrial revolution. Get ready to grow dependable expertise.</p>
                 </div>
               </div>
               <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-                <img src="https://edublock.co/anttaset/product-asset/edublock/shots_2.png" alt="Image" class="img-fluid">
+                <img src="{{ asset('/assets/images/shop/shots_2.png') }}" alt="Image" class="img-fluid">
               </div>
             </div>
           </div>
@@ -279,7 +279,7 @@
                 <div class="row">
                   <div class="col-lg-4"></div>
                   <div class="col-lg-4 section06_image">
-                    <img src="https://edublock.co/anttaset/product-asset/edublock/Group 386.png">
+                    <img src="{{ asset('/assets/images/shop/Group386.png') }}">
                   </div>
                   <div class="col-lg-4"></div>
                   

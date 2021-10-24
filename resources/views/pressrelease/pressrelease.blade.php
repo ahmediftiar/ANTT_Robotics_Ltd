@@ -69,25 +69,25 @@
             <div class="row">
                 <div class="col-md-8 col-12 press-release">
                     <div class="">
-                        <img src="https://edublock.co/anttaset/pressimage/press4img0.jpg" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press4img0.jpg') }}" style="max-width: 100%; padding: 20px 0;">
                         <h5>ANTT ROBOTICS LTD Successfully completed another training session on “Basic Robotics Skills” for the kids of Tanzania, Africa!</h5>
                         <p>ANTT ROBOTICS LTD is a superior, award-winning portfolio company of iDEA project, ICT Division of Bangladesh providing innovative solutions to the newer generation to be adept for the 4th Industrial Revolution in today’s world. The company started its journey in early 2019 based in Dhaka, Bangladesh. Its patent-pending designed system has been developed with the help of nearly 8,000 strong STEAM community members.</p><br>
                         <a href="{{ route('pressrelease.press4') }}" class="btn-readmore">Read More</a>
                     </div><br>
                     <div class="">
-                        <img src="https://edublock.co/anttaset/pressimage/press3img0.jpg" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press3img0.jpg')  }}" style="max-width: 100%; padding: 20px 0;">
                         <h5>STEM CLUB Bangladesh is back with “STEM FEST 2021: Exploring STEM through Coding” For Young Enthusiasts!</h5>
                         <p>STEM CLUB Bangladesh is going to arrange another tremendous coding competition for School & College level students after successfully hosting the <strong>“MICRO CAMP-2020”</strong> campaign with a huge overwhelming response. For those who don’t know yet, STEM CLUB Bangladesh is an excellent community platform which is aiming to build awareness among the students, educators and enthusiasts to ennoble the society through a world-leading STEM (Science, Technology, Engineering and Mathematics) education in collaboration with the Information and Communication Technology (ICT) Division, iDEA Project as partners of the great initiative.</p><br>
                         <a href="{{ route('pressrelease.press3') }}" class="btn-readmore">Read More</a>
                     </div><br>
                     <div class="">
-                        <img src="https://edublock.co/anttaset/pressimage/press2img4.JPG" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press2img4.JPG')  }}" style="max-width: 100%; padding: 20px 0;">
                         <h5>Bangladesh Frontier Startups Demo Day | ANTT Robotics Ltd.</h5>
                         <p>ANTT Robotics, based in Dhaka, Bangladesh, began its voyage in early 2019. With the support of our 8,000-strong member in the STEAM community, we developed our patent-pending system. Our team is made up of seasoned R&D, technology, hardware, software, and business analysis experts that have worked for reputable local and worldwide firms. Our team also has a strong local network, which includes maker labs, institutions, and educators.</p><br>
                         <a href="{{ route('pressrelease.press2') }}" class="btn-readmore">Read More</a>
                     </div><br>
                     <div class="">
-                        <img src="https://edublock.co/anttaset/press01.png" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press01.png')  }}" style="max-width: 100%; padding: 20px 0;">
                         <h5>ANTT Robotics Raises Angel Round to Accelerate International Expansion</h5>
                         <p>ANTT Robotics Ltd. and have successfully filed for their first patent and have been the only company able to raise Angel Investment, for the development of one the most crucial missing pieces in the modern education field of Bangladesh, entitled ‘Artificial Intelligence Based Learning Management System’. The system has been validated by their own designed Robotics STEM tools in (04) Four Seoul Based Elementary School’s student pilot programs which also helped ANTT to develop ‘Bangladesh National Curriculum’ friendly Courses for Learning Robotics and Programming for Embedded Systems.</p><br>
                         <a href="{{ route('pressrelease.press1') }}" class="btn-readmore">Read More</a>
@@ -97,7 +97,7 @@
                     <p class="mt-4">RECENT POSTS</p>
                     <div class="row">
                         <div class="col-4">
-                            <img src="https://edublock.co/anttaset/pressimage/press3img0.jpg" style="max-width: 100%;">
+                            <img src="{{ asset('/assets/images/press/press3img0.jpg') }}" style="max-width: 100%;">
                         </div>
                         <div class="col-8">
                             <a href="" style="font-size: 11px;">STEM CLUB Bangladesh is back</a>
@@ -105,7 +105,7 @@
                     </div><br>
                     <div class="row">
                         <div class="col-4">
-                            <img src="https://edublock.co/anttaset/pressimage/press2img4.JPG" style="max-width: 100%;">
+                            <img src="{{ asset('/assets/images/press/press2img4.JPG')  }}" style="max-width: 100%;">
                         </div>
                         <div class="col-8">
                             <a href="https://www.prothomalo.com/education/science-tech/%E0%A6%95%E0%A7%8B%E0%A6%A1-%E0%A6%A8%E0%A6%BE-%E0%A6%B2%E0%A6%BF%E0%A6%96%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82?fbclid=IwAR1SWTFlv0JHEAVci0Bt0SzuNd-eTYSkKiwBmFlBo99A5RqKN0Zrsm4WBLU" style="font-size: 11px;">Bangladesh Frontier Startups Demo Day</a>
@@ -155,32 +155,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center">
+                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/basis.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/basis.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ict.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ict.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/Bhtp.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/Bhtp.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ideaa.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ideaa.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/incube.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/incube.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/kkpc.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>

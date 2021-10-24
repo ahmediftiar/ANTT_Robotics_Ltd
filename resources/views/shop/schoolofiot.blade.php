@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <img src="https://edublock.co/anttaset/product-asset/schoolofiot/iot.png">
+                    <img src="{{ asset('/assets/images/shop/iot.png') }}">
                 </div>
                 <div class="col-sm-12 col-md-6 right1">
                     <h1>School of Iot</h1>
@@ -78,16 +78,16 @@
             <div class="col-lg-6 col-12">
               <div class="track">
                 <ul>
-                  <li id="slide2"><img src="https://edublock.co/anttaset/product-asset/schoolofiot/2.png"></li>
-                  <li id="slide3"><img src="https://edublock.co/anttaset/product-asset/schoolofiot/3.png"></li>
-                  <li id="slide1"><img src="https://edublock.co/anttaset/product-asset/schoolofiot/1.jpg"></li>
+                  <li id="slide2"><img src="{{ asset('/assets/images/shop/2.png') }}"></li>
+                  <li id="slide3"><img src="{{ asset('/assets/images/shop/3.png') }}"></li>
+                  <li id="slide1"><img src="{{ asset('/assets/images/shop/1.jpg') }}"></li>
                                     
                 </ul>
               </div><br>
               <div class="slides">
-                <a href="#slide2"><img src="https://edublock.co/anttaset/product-asset/schoolofiot/2.png"></a>
-                <a href="#slide3"><img src="https://edublock.co/anttaset/product-asset/schoolofiot/3.png"></a>
-                <a href="#slide1"><img src="https://edublock.co/anttaset/product-asset/schoolofiot/1.jpg"></a>
+                <a href="#slide2"><img src="{{ asset('/assets/images/shop/2.png') }}"></a>
+                <a href="#slide3"><img src="{{ asset('/assets/images/shop/3.png') }}"></a>
+                <a href="#slide1"><img src="{{ asset('/assets/images/shop/1.jpg') }}"></a>
                 
               </div>
             </div>
@@ -96,7 +96,7 @@
               <p class="mb-5 font-weight-bold">20+ Projects | STEM Courses</p>
               <div class="row" style="height:120px;">
                 <div class="col-6 staricon">
-                  <img src="https://edublock.co/anttaset/product-asset/edublock/Reviewicons.png">
+                  <img src="{{ asset('/assets/images/shop/Reviewicons.png') }}">
                 </div>
                 <div class="col-6">
                   {{-- <p class="font-weight-bold" style="color: black;">Price</p>
@@ -156,7 +156,7 @@
             <div class="col-lg-6 col-12 track1" >
               <div class="">
                 <ul>
-                  <li id=""><img src="https://edublock.co/anttaset/product-asset/schoolofiot/Course pic.png"></li>
+                  <li id=""><img src="{{ asset('/assets/images/shop/Course pic.png') }}"></li>
                 </ul>
               </div>
             </div>
@@ -178,7 +178,7 @@
                     <div class="col-12 track2" >
                         <div class="">
                             <ul>
-                            <li id=""><img src="https://edublock.co/anttaset/product-asset/schoolofiot/Course pic.png"></li>
+                            <li id=""><img src="{{ asset('/assets/images/shop/Course pic.png') }}"></li>
                             </ul>
                         </div>
                     </div>
@@ -195,19 +195,19 @@
           <h3 class="text-center font-weight-bold">Why School of IoT !</h3>
           <div class="row">
             <div class="col-lg-3 col-6">
-              <img src="https://edublock.co/anttaset/product-asset/schoolofiot/ICON 1.png" class="d-block m-auto">
+              <img src="{{ asset('/assets/images/shop/ICON 1.png') }}" class="d-block m-auto">
               <p class="text-center">Plug & Play Robotics</p>
             </div>
             <div class="col-lg-3 col-6">
-              <img src="https://edublock.co/anttaset/product-asset/schoolofiot/ICON 2.png"  class="d-block m-auto">
+              <img src="{{ asset('/assets/images/shop/ICON 2.png') }}"  class="d-block m-auto">
               <p class="text-center">DIY IoT - Customization</p>
             </div>
             <div class="col-lg-3 col-6">
-              <img src="https://edublock.co/anttaset/product-asset/schoolofiot/ICON 3.png"  class="d-block m-auto">
+              <img src="{{ asset('/assets/images/shop/ICON 3.png') }}"  class="d-block m-auto">
               <p class="text-center">Gamified STEM Platform</p>
             </div>
             <div class="col-lg-3 col-6">
-              <img src="https://edublock.co/anttaset/product-asset/schoolofiot/ICON 4.png"  class="d-block m-auto">
+              <img src="{{ asset('/assets/images/shop/ICON 4.png') }}"  class="d-block m-auto">
               <p class="text-center">Starter Kit for Beginners</p>
             </div>
           </div>
@@ -223,13 +223,13 @@
             <div>
               <h2 class="mt-3">All in one-STEM DIY Box</h2>
               <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Top picture.png" alt="Image" class="img-fluid">
+                <img src="{{ asset('/assets/images/shop/Top picture.png') }}" alt="Image" class="img-fluid">
               </div>
               <p class="lead">With School Of Iot, the box are full of  simple sensors and components. The first step toward robotics would be to control the robot wireless. And it comes with a fun projects. You have to figure out how to program the controlling scheme. And as always there’ll be guide to assist you in your STEAM world. </p>
             </div>
           </div>
             <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-              <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Top picture.png" alt="Image" class="img-fluid">
+              <img src="{{ asset('/assets/images/shop/Top picture.png') }}" alt="Image" class="img-fluid">
             </div>
         </div>
       </div>
@@ -239,13 +239,13 @@
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-            <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Middle picture.png" alt="Image" class="img-fluid">
+            <img src="{{ asset('/assets/images/shop/Middle picture.png') }}" alt="Image" class="img-fluid">
           </div>
           <div class="col-12 col-lg-6 col-xl-5">
             <div> 
               <h2 class="mt-3">IoT Learning Experiment Book</h2>
               <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Middle picture.png" alt="Image" class="img-fluid">
+                <img src="{{ asset('/assets/images/shop/Middle picture.png') }}" alt="Image" class="img-fluid">
               </div>
               <p class="lead mt-lg-0 mt-5">School Of IoT comes with experiement book, basic tutorials to advance all are super simple with plenty of tutorials. The book is graphically designed towards IoT learning.From monitoring the robot from the dashboard to control the heardware all in one guide.You will learn how  program the controlling scheme. The jounrney will be extremely enjoyable.</p>
             </div>
@@ -261,13 +261,13 @@
             <div>
               <h2 class="mt-3">School of IOT App</h2>
               <div class="d-lg-none d-block col-12 col-lg-6 mb-6 mb-lg-0">
-                <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Bootom picture.png" alt="Image" class="img-fluid">
+                <img src="{{ asset('/assets/images/shop/Bootom picture.png') }}" alt="Image" class="img-fluid">
               </div>
               <p class="lead">ANTT Robotics has prepared phenomenal dashboard for users. It gives you a super platform for programming sensors and control from cloud. With a proficiency in School Of IoT dashboard, you will be able to control your all stuffs with this dashboard easily.You can acess this dashboard from both mobile and computer.</p>
             </div>
           </div>
           <div class="d-lg-block d-none col-12 col-lg-6 mb-6 mb-lg-0">
-            <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Bootom picture.png" alt="Image" class="img-fluid">
+            <img src="{{ asset('/assets/images/shop/Bootom picture.png') }}" alt="Image" class="img-fluid">
           </div>
         </div>
       </div>
@@ -281,7 +281,7 @@
                 <div class="row">
                   <div class="col-lg-4"></div>
                   <div class="col-lg-4 section06_image">
-                    <img src="https://edublock.co/anttaset/product-asset/schoolofiot/iotrobot.png">
+                    <img src="{{ asset('/assets/images/shop/iotrobot.png') }}">
                   </div>
                   <div class="col-lg-4"></div>
                   

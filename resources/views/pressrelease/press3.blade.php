@@ -72,7 +72,7 @@
             <div class="row">
                 <div class="col-12 press">
                     <div class="press03">
-                        <img src="https://edublock.co/anttaset/pressimage/press3img0.jpg" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press3img0.jpg') }}" style="max-width: 100%; padding: 20px 0;">
                         <h5>STEM CLUB Bangladesh is back with “STEM FEST 2021: Exploring STEM through Coding” For Young Enthusiasts!</h5>
                         <p class="pressdate">8 September 2021 / Dhaka, Bangladesh</p>
                         <p>&emsp;&emsp;&emsp; STEM CLUB Bangladesh is going to arrange another tremendous coding competition for School & College level students after successfully hosting the <strong>“MICRO CAMP-2020”</strong> campaign with a huge overwhelming response. For those who don’t know yet, STEM CLUB Bangladesh is an excellent community platform which is aiming to build awareness among the students, educators and enthusiasts to ennoble the society through a world-leading STEM (Science, Technology, Engineering and Mathematics) education in collaboration with the Information and Communication Technology (ICT) Division, iDEA Project as partners of the great initiative.</p>
@@ -114,28 +114,28 @@
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/basis.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/basis.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ict.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ict.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/Bhtp.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/Bhtp.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ideaa.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ideaa.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/incube.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/incube.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/kkpc.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>

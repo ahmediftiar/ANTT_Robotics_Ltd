@@ -248,17 +248,13 @@
                     <div class="col-md-12 col-lg-6">
                         <div class="feature-contents">
                             <h2 class="font-weight-bold">Robots to Blossom the Inventive Heads of Tomorrow</h2>
-                            <p class="text-justify">Welcome to ANTT Robotics STEAM School and
-Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity and Analytical Skills. Update Your Students, Teachers & School using Robotics Tools and AI based Learning Management System (LMS) to learn STEAM</p>
-
-<ul class="check-list-wrap py-3">
-    <li>One Gamified System to Build Career Readiness Skills </li>
-    <li>Easy, Plug and Play Robotics Tools to Learn CS</li>
-    <li>Augmented Graphical Coding Application for STEAM Education</li>
-    <li>AI & IoT based Project Learning Encouragement </li>
-</ul>
-
-
+                            <p class="text-justify">Welcome to ANTT Robotics STEAM School and Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity and Analytical Skills. Update Your Students, Teachers & School using Robotics Tools and AI based Learning Management System (LMS) to learn STEAM</p>
+                            <ul class="check-list-wrap py-3">
+                                <li>One Gamified System to Build Career Readiness Skills </li>
+                                <li>Easy, Plug and Play Robotics Tools to Learn CS</li>
+                                <li>Augmented Graphical Coding Application for STEAM Education</li>
+                                <li>AI & IoT based Project Learning Encouragement </li>
+                            </ul>
                             <div class="action-btns mt-4">
                                 
                                 <a href="https://edublock.co/" target="_blank" class="btn btn-outline-brand-02">Start Now</a>
@@ -469,8 +465,7 @@ Explore Easy Plug & Play Robots, Tools, Sensors to Develop Your Kids Creativity 
                            <div class="col-md-6 col-lg-5 mb-4 mb-sm-4 mb-md-0 mb-lg-0">
                                <div class="testimonial-heading text-white">
                                    <h2 class="text-white">What Our Client Say About ANTT Robotics</h2>
-                                   <p class="text-secondary">Cooperatively Working for Digital Transformation with Skilled Manpower and Digitalized the process of Learning.
-</p>
+                                   <p class="text-secondary">Cooperatively Working for Digital Transformation with Skilled Manpower and Digitalized the process of Learning.</p>
                                </div>
                            </div>
                            <div class="col-md-6 col-lg-6">

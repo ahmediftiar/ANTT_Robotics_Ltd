@@ -74,7 +74,7 @@
                         <p class="pressdate">17 August 2021 / Seoul, South Korea</p>
                         <p>&emsp;&emsp;&emsp; ANTT Robotics, based in Dhaka, Bangladesh, began its voyage in early 2019. With the support of our 8,000-strong member in the STEAM community, we developed our patent-pending system. Our team is made up of seasoned R&D, technology, hardware, software, and business analysis experts that have worked for reputable local and worldwide firms. Our team also has a strong local network, which includes maker labs, institutions, and educators.<br><br>&emsp;&emsp;&emsp;For ANTT Robotics, today is a wonderful day since we have completed our six-month incubation program and have placed first. AHN Wan Gi, Chairman of the Korea Productivity Center, made the comment at the Bangladesh Frontier Startups Demo Day & Closing Ceremony. Rokkhi Ltd was the first runner-up, with Charchokka Ltd, Krishian, and Chobirbakso rounding out the top three teams. Then, Ahn Wan Gi, Chairman of Korea Productivity Centre, mentioning all the team's names with their tremendous performances suggested to be the next-generation's role model based on the experiences of Korea with their innovative stories, when they get back to Bangladesh. Also said to play the key role of the bridge of connecting Korea and Bangladesh, through and including KPC. N MM Zeaul Alam, Senior Secretary, Bangladesh's ICT Division, LEE Jang Keunn, Ambassador, Bangladesh's Embassy of the Republic of Korea, and Zunaid Ahmed Palak, MP, State Minister, Bangladesh's ICT Division, were also present.</p>
                         <br><br>
-                        <img src="https://edublock.co/anttaset/pressimage/press2img1.JPG" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press2img1.JPG') }}" style="max-width: 100%; padding: 20px 0;">
                         <p>&emsp;&emsp;&emsp;The Republic of Korea is a trusted friend of Digital Bangladesh in moving forward to embrace the future technology together with the technical and financial assistant of the government of Korea through KOICA. Ideathon is one of the successful joint ICT initiatives by Bangladesh and Korea aiming To increase the knowledge & skills of startups in Bangladesh and South Korea. ANTT Robotics was selected as one of Bangladesh's Top 05 startups out of 3147 and is about to complete a six-month incubation program in Seoul, South Korea, with the Korean Productivity Center (KPC) and Korean Promotion Association (KIPA). This 6 months incubation was a proper training session to each team and their founders, aimed at the utmost development of their experiences, ideas with best concepts and the cooperation of KPC, where they were also able to produce prototypes.</p>
                         <br><br>
                         <blockquote class="sidekick">
@@ -83,11 +83,11 @@
                        <p>&emsp;&emsp;&emsp;
                         Two founding members of ANTT Robotics have been participating in recent months and have successfully filed for their first patent, as well as being the only company able to raise Angel Investment for the development of one of the most critical missing pieces in Bangladesh's modern education field, entitled "Artificial Intelligence Based Learning Management System."
                        </p>
-                       <img src="https://edublock.co/anttaset/pressimage/press2img2.JPG" style="max-width: 100%; padding: 20px 0;">
+                       <img src="{{ asset('/assets/images/press/press2img2.JPG')  }}" style="max-width: 100%; padding: 20px 0;">
                         <p>&emsp;&emsp;&emsp;The system has been validated by their own designed Robotics STEM tools in (04) Four Seoul Based Elementary School student pilot programs which also helped ANTT to develop ‘Bangladesh National Curriculum’ friendly Courses for Learning Robotics and Programming for Embedded Systems. Her involvement includes a financial investment in international marketing and scaling, which has already resulted in a product supply pipeline of 200 STEAM Robotics tools, as well as software and education services, in Singapore, Malaysia, and other South Asian countries, and preliminary communications are underway in South Korea, Egypt, and Bangladesh.
                         <br><br>&emsp;&emsp;&emsp;TThe next step for ANTT Robotics Ltd. is focusing on the refurbishment and expansion of their Edu-Tech ecosystem to provide students with experiential hands-on learning to enhance practical knowledge to better equip them for a career in science and engineering. 
                         </p>
-                        <img src="https://edublock.co/anttaset/pressimage/press2img3.JPG" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press2img3.JPG')  }}" style="max-width: 100%; padding: 20px 0;">
                         <br>
                         <p>&emsp;&emsp;&emsp;Because the value of education in any sector, to exist in general, is a basic requirement, the team is laser-focused on solving this lack of talent market, which fits with UN's SDG4. As a result, it is increasingly vital to approach this sector with relevant ideas and breakthroughs, as we can all see that the 4th Industrial Revolution will be the peak moment for familiarization in the future years. Bangladesh and the Korean Government Authority, ICT Division, Ministry of Posts, Telecommunications and Information Technology, Innovation Design and Entrepreneurship Academy (iDEA), Korean Productivity Center (KPC), Korea Invention Promotion Association (KIPA) for allowing ANTT Robotics to host this type of Entrepreneurship Incubation program.</p>
                     </div>
@@ -110,32 +110,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center">
+                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/basis.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/basis.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ict.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ict.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/Bhtp.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/Bhtp.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ideaa.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ideaa.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/incube.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/incube.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/kkpc.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>

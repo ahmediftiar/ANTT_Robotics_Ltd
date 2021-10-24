@@ -74,7 +74,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card gray-light-bg border-0 shadow-sm my-3">
                             <div class="blog-img position-relative">
-                                <img src="https://edublock.co/anttaset/Scratch600x400.jpg" class="card-img-top" alt="blog">
+                                <img src="{{ asset('/assets/images/course/Scratch600x400.jpg') }}" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>Enroll</strong>
                                     <small>now</small>
@@ -90,7 +90,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card gray-light-bg border-0 shadow-sm my-3">
                             <div class="blog-img position-relative">
-                                <img src="https://edublock.co/anttaset/Robotics%20with%20Arduino600x400.jpg" class="card-img-top" alt="blog">
+                                <img src="{{ asset('/assets/images/course/RoboticswithArduino600x400.jpg') }}" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>Enroll</strong>
                                     <small>now</small>
@@ -106,7 +106,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card gray-light-bg border-0 shadow-sm my-3">
                             <div class="blog-img position-relative">
-                                <img src="https://edublock.co/anttaset/IoT600x400.jpg" class="card-img-top" alt="blog">
+                                <img src="{{ asset('/assets/images/course/IoT600x400.jpg') }}" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>Enroll</strong>
                                     <small>now</small>
@@ -123,7 +123,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card gray-light-bg border-0 shadow-sm my-3">
                             <div class="blog-img position-relative">
-                                <img src="https://edublock.co/anttaset/arduinowithtinkercad(600x400).jpg" class="card-img-top" alt="blog">
+                                <img src="{{ asset('/assets/images/course/arduinowithtinkercad600x400.jpg') }}" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>Enroll</strong>
                                     <small>now</small>
@@ -140,7 +140,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card gray-light-bg border-0 shadow-sm my-3">
                             <div class="blog-img position-relative">
-                                <img src="https://edublock.co/anttaset/basicrobotics%28600x400%29.jpg" class="card-img-top" alt="blog">
+                                <img src="{{ asset('/assets/images/course/basicrobotics600x400.jpg') }}" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>Enroll</strong>
                                     <small>now</small>
@@ -157,7 +157,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card gray-light-bg border-0 shadow-sm my-3">
                             <div class="blog-img position-relative">
-                                <img src="https://edublock.co/anttaset/buildgames%28600x400%29.jpg" class="card-img-top" alt="blog">
+                                <img src="{{ asset('/assets/images/course/buildgames600x400.jpg') }}" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>Enroll</strong>
                                     <small>now</small>
@@ -174,7 +174,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card gray-light-bg border-0 shadow-sm my-3">
                             <div class="blog-img position-relative">
-                                <img src="https://edublock.co/anttaset/soccerrobot%28600x400%29.jpg" class="card-img-top" alt="blog">
+                                <img src="{{ asset('/assets/images/course/soccerrobot600x400.jpg') }}" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>Enroll</strong>
                                     <small>now</small>
@@ -191,7 +191,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="single-blog-card card gray-light-bg border-0 shadow-sm my-3">
                             <div class="blog-img position-relative">
-                                <img src="https://edublock.co/anttaset/iotcar%28600x400%29.jpg" class="card-img-top" alt="blog">
+                                <img src="{{ asset('/assets/images/course/iotcar600x400.jpg') }}" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>Enroll</strong>
                                     <small>now</small>
@@ -232,7 +232,7 @@
                 <div class="row align-items-center justify-content-between justify-content-sm-center justify-content-md-center">
                     <div class="col-sm-5 col-md-6 col-lg-6 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
                         <div class="download-img">
-                            <img src="https://edublock.co/anttaset/Rahat_Schoolof%20IoT-02.png" alt="download" class="img-fluid">
+                            <img src="{{ asset('/assets/images/home/Rahat_Schoolof_IoT-02.png') }}" alt="download" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6">
@@ -268,28 +268,28 @@
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/course/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/basis.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/basis.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ict.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ict.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/Bhtp.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/Bhtp.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ideaa.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ideaa.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/incube.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/incube.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/kkpc.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>

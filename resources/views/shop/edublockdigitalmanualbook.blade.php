@@ -130,7 +130,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.7/pdfobject.js" integrity="sha512-OLQpZw84GU2xP8iOTgvV1m1MeGvp8hRVqNKl8WyFdjlPeXxgXXnrqSEb7V+mxKhLge9LehdH+0BGt879MfQzYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script>PDFObject.embed("https://edublock.co/anttaset/product-asset/edublockdigital/EduBlockManualBook.pdf", "#example1");</script>
+<script>PDFObject.embed("https://anttrobotics.com/public/assets/files/EduBlockManualBook.pdf", "#example1");</script>
 </body>
 
 </html>

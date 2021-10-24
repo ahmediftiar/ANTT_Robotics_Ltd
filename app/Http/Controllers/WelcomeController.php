@@ -120,7 +120,7 @@ class WelcomeController extends Controller
     //Solution Page
     public function solution()
     {
-        return view('solution');
+        return view('solution.solution');
     }
 
     

@@ -72,21 +72,21 @@
             <div class="row">
                 <div class="col-12 press">
                     <div class="press04">
-                        <img src="https://edublock.co/anttaset/pressimage/press4img0.jpg" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press4img0.jpg') }}" style="max-width: 100%; padding: 20px 0;">
                         <h5>ANTT ROBOTICS LTD Successfully completed another training session on “Basic Robotics Skills” for the kids of Tanzania, Africa!</h5>
                         <p class="pressdate">8 September 2021 / Tanzania, Africa</p>
                         <p>&emsp;&emsp;&emsp; ANTT ROBOTICS LTD is a superior, award-winning portfolio company of <strong>iDEA project, ICT Division of Bangladesh</strong> providing innovative solutions to the newer generation to be adept for the 4th Industrial Revolution in today’s world. The company started its journey in early 2019 based in Dhaka, Bangladesh. Its patent-pending designed system has been developed with the help of nearly 8,000 strong STEAM community members. The whole team is comprised of seasoned R&D, technology, hardware, software & business analysis specialists with vast experience gained from working with reputed local & multinational companies. Besides, it also has a robust local network of very strong ties with maker labs, universities & educators. </p>
-                        <img src="https://edublock.co/anttaset/pressimage/press4img1.png" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press4img1.png')  }}" style="max-width: 100%; padding: 20px 0;">
                         <p>&emsp;&emsp;&emsp;Hence, after successfully winning several awards from different International and National organizations, it was more than a pleasure for ANTT ROBOTICS LTD to host another hands-on virtual batch on <strong>“Basic Robotics Skills”</strong> for Tanzanian kids in Africa. This program was specially conducted to positively impact their STEM Education & Robotics knowledge and make a difference thereby.</p>
 
                        <p>&emsp;&emsp;&emsp;Consequently, Kids of Tanzania received a thorough session regarding interfacing of Arduino, water pump, and IR sensor. It was a 12-day learning opportunity for IOTKID LLC (which is a USA-based company but operating in Africa). ANTT conducted it to teach them the importance of automated hand sanitizer and its features.</p>
-                       <img src="https://edublock.co/anttaset/pressimage/press4img2.png" style="max-width: 100%; padding: 20px 0;">
+                       <img src="{{ asset('/assets/images/press/press4img2.png')  }}" style="max-width: 100%; padding: 20px 0;">
                         <p>&emsp;&emsp;&emsp;During this Covid pandemic, the percentage of hand sanitizer uses has increased drastically. It’s really appreciating how people are being health-conscious. But at the same time, it is a huge concern that they are oblivious of the fact that the virus may spread from hand sanitizer bottles when passed from an infected person. Hence an automated hand sanitizer is in need of. Now there’s no need to trigger using a hand. You just need to place your hand near the bottle and then the bottle will automatically be triggered.</p>
 
                         <p>&emsp;&emsp;&emsp;This concept was brought to the kids in-depth through the “Basic Robotics Skills” session. Firstly, to automate any system one requires the machine to have a great sensor to operate without human intervention. Hence the first class after the introduction was based on a proper view of how the sensor works and what they are. With having the first step cleared they are taken to the deeper level of electronics.</p>
                         
                         <p>&emsp;&emsp;&emsp;Arduino fundamentals (Installation), circuit design, Arduino coding, etc were introduced to them. Not just theoretical classes but actual experimentation was shown online. To assemble the functions and create an automated hand sanitizer testing matching the standard was exhibited to them by ANTT Robotics LTD’s powerful IT team. Moreover, a basic Powerpoint skills lesson was also taken.</p>
-                        <img src="https://edublock.co/anttaset/pressimage/press4img3.png" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press4img3.png')  }}" style="max-width: 100%; padding: 20px 0;">
                         <br>
                         <p>&emsp;&emsp;&emsp;The 10 kids finished the session having the complete learning of automated hand sanitizer with experimentation. After completing the whole session, the kids were able to give a brief presentation based on their project learning. This basic knowledge of electronics will help them in the future to make any other automated project. The importance of such knowledge since childhood is very important rather than just imposing them with these in adult life. ANTT Robotics LTD is working hard with this noble purpose of practicing education with passion not just cramming.</p>
                         <p>&emsp;&emsp;&emsp;Therefore, ANTT Robotics would like to express the heartiest gratitude to Bangladesh and Korean Government Authority, ICT Division, Ministry of Posts, Telecommunications and Information Technology, Innovation Design and Entrepreneurship Academy (iDEA), Korean Productivity Center (KPC), Korea Invention Promotion Association (KIPA) authority to organize this type of Entrepreneurship Incubation program through Overall Assistance for Start-up Immigration System (OASIS). </p>
@@ -110,32 +110,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center">
+                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/basis.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/basis.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ict.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ict.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/Bhtp.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/Bhtp.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ideaa.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ideaa.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/incube.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/incube.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/kkpc.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>

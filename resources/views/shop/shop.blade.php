@@ -48,7 +48,7 @@
 
     <div class="container-fluid">
         <div class="d-lg-none d-block shopheader"></div>
-        <img src="https://edublock.co/anttaset/product-asset/shop/shopcover.png" style="width: 105%">
+        <img src="{{ asset('/assets/images/shop/shopcover.png') }}" style="width: 105%">
     </div>
     <section>
         <div class="container">
@@ -58,13 +58,13 @@
           <div class="row">
             <div class="col-lg-6 col-12">
               <div class="edublockimg">
-                <img src="https://edublock.co/anttaset/product-asset/edublock/Group 386.png">
+                <img src="{{ asset('/assets/images/shop/Group386.png') }}">
               </div>
             </div>
             <div class="col-lg-6 col-12 text-center">
               <div class="row" style="height:120px;">
                 <div class="col-6 staricon">
-                  <img src="https://edublock.co/anttaset/product-asset/edublock/Reviewicons.png">
+                  <img src="{{ asset('/assets/images/shop/Reviewicons.png') }}">
                 </div>
                 <div class="col-6">
                   <!-- <p class="font-weight-bold" style="color: black;">Price</p>
@@ -101,13 +101,13 @@
             <h1 class="title font-weight-bold text-center">School of IoT -</h1>
             <h2 class="title font-weight-bold text-center">IoT & Data Science Starter Kits for 10+ Years Kids</h2>
             <div class="d-lg-none d-block col-12 mt-5">
-              <img src="https://edublock.co/anttaset/product-asset/shop/iotimage.png" style="width: 100%;">
+              <img src="{{ asset('/assets/images/shop/iotimage.png') }}" style="width: 100%;">
             </div>
             <div class="row">
               <div class="col-lg-6 col-12 text-center">
                 <div class="row">
                   <div class="col-6 staricon1">
-                    <img src="https://edublock.co/anttaset/product-asset/schoolofiot/Reviewicons.png">
+                    <img src="{{ asset('/assets/images/shop/Reviewicons.png') }}">
                   </div>
                   <div class="col-6 my-auto">
                     <!-- <p class="font-weight-bold" style="color: black;">Price</p>
@@ -134,7 +134,7 @@
                 </div>
               </div>
               <div class="d-lg-block d-none col-lg-6">
-                <img src="https://edublock.co/anttaset/product-asset/shop/iotimage.png" style="width: 100%;">
+                <img src="{{ asset('/assets/images/shop/iotimage.png') }}" style="width: 100%;">
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@
                 <div class="row align-items-center justify-content-between justify-content-sm-center justify-content-md-center">
                     <div class="col-sm-5 col-md-6 col-lg-6 mb-5 mb-md-5 mb-sm-5 mb-lg-0">
                         <div class="download-img">
-                            <img src="https://edublock.co/anttaset/Sabab_transparant-02.png" alt="download" class="img-fluid">
+                            <img src="{{ asset('/assets/images/shop/Sabab_transparant-02.png') }}" alt="download" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6">
@@ -188,28 +188,28 @@
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/basis.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/basis.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ict.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ict.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/Bhtp.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/Bhtp.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/ideaa.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ideaa.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/incube.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/incube.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/kkpc.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="https://edublock.co/anttaset/bangla1.png" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>
