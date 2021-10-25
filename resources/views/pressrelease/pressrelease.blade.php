@@ -81,7 +81,7 @@
                         <a href="{{ route('pressrelease.press3') }}" class="btn-readmore">Read More</a>
                     </div><br>
                     <div class="">
-                        <img src="{{ asset('/assets/images/press/press2img4.JPG')  }}" style="max-width: 100%; padding: 20px 0;">
+                        <img src="{{ asset('/assets/images/press/press2img4.jpg')  }}" style="max-width: 100%; padding: 20px 0;">
                         <h5>Bangladesh Frontier Startups Demo Day | ANTT Robotics Ltd.</h5>
                         <p>ANTT Robotics, based in Dhaka, Bangladesh, began its voyage in early 2019. With the support of our 8,000-strong member in the STEAM community, we developed our patent-pending system. Our team is made up of seasoned R&D, technology, hardware, software, and business analysis experts that have worked for reputable local and worldwide firms. Our team also has a strong local network, which includes maker labs, institutions, and educators.</p><br>
                         <a href="{{ route('pressrelease.press2') }}" class="btn-readmore">Read More</a>
