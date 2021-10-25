@@ -268,7 +268,7 @@
                     <div class="col-md-12">
                         <div class="owl-carousel owl-theme clients-carousel dot-indicator">
                             <div class="item single-customer">
-                                <img src="{{ asset('/assets/images/course/bangla1.png') }}" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
                                 <img src="{{ asset('/assets/images/home/basis.png') }}" alt="client logo" class="customer-logo">
@@ -287,9 +287,6 @@
                             </div>
                             <div class="item single-customer">
                                 <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
-                            </div>
-                            <div class="item single-customer">
-                                <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>

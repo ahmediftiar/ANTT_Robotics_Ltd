@@ -117,8 +117,8 @@
             </div>
             <div class="text-center app">
                 <h5>EduBlock - Learning STEAM</h5>
-                <a href="https://play.google.com/store/apps/details?id=co.edublock&hl=en&gl=US" target="_blank"><img class="playstoreicon" src="https://edublock.co/anttaset/googleplay.png"></a>
-                <a href="#"><img class="appstoreicon" src="https://edublock.co/anttaset/appstore.png"></a>
+                <a href="https://play.google.com/store/apps/details?id=co.edublock&hl=en&gl=US" target="_blank"><img class="playstoreicon" src="{{ asset('/assets/images/googleplay.png') }}"></a>
+                <a href="#"><img class="appstoreicon" src="{{ asset('/assets/images/appstore.png') }}"></a>
             </div>
         </div>
         <!--end of container-->

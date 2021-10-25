@@ -162,25 +162,22 @@
                                 <img src="{{ asset('/assets/images/home/bangla1.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="{{ asset('/assets/images/home/basis.png')  }}" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/basis.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="{{ asset('/assets/images/home/ict.png')  }}" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ict.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
                                 <img src="{{ asset('/assets/images/home/Bhtp.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="{{ asset('/assets/images/home/ideaa.png')  }}" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/ideaa.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
-                                <img src="{{ asset('/assets/images/home/incube.png')  }}" alt="client logo" class="customer-logo">
+                                <img src="{{ asset('/assets/images/home/incube.png') }}" alt="client logo" class="customer-logo">
                             </div>
                             <div class="item single-customer">
                                 <img src="{{ asset('/assets/images/home/kkpc.png') }}" alt="client logo" class="customer-logo">
-                            </div>
-                            <div class="item single-customer">
-                                <img src="{{ asset('/assets/images/home/bangla1.png')  }}" alt="client logo" class="customer-logo">
                             </div>
                         </div>
                     </div>
