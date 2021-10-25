@@ -6,9 +6,6 @@
 <meta charset="utf-8">
 <meta name="keywords" content="Industry 4.0, premium, multipurpose, saas" />
 <meta name="description" content="Facilitate Industry 4.0" />
-
-<meta property="fb:app_id"          content="284364716206031" /> 
-<meta property="og:type"            content="website" /> 
 <meta property="og:url"             content="https://www.anttrobotics.com/"/> 
 <meta property="og:title"           content="Facilitate Industry 4.0" /> 
 <meta property="og:image"           content="https://www.anttrobotics.com/public/frontend/assets/images/about/edu-iot.png" /> 
@@ -21,6 +18,10 @@
 <meta name="google-site-verification" content="z8eugNKi33OtVizosZQ5-bw5HKKo_uMibPyKUkvxVmU">
 
 <title>Facilitate Industry 4.0 | ANTT Robotics Ltd.</title>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
