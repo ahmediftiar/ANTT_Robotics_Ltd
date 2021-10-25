@@ -105,7 +105,7 @@
                     </div><br>
                     <div class="row">
                         <div class="col-4">
-                            <img src="{{ asset('/assets/images/press/press2img4.JPG')  }}" style="max-width: 100%;">
+                            <img src="{{ asset('/assets/images/press/press2img4.jpg')  }}" style="max-width: 100%;">
                         </div>
                         <div class="col-8">
                             <a href="https://www.prothomalo.com/education/science-tech/%E0%A6%95%E0%A7%8B%E0%A6%A1-%E0%A6%A8%E0%A6%BE-%E0%A6%B2%E0%A6%BF%E0%A6%96%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82?fbclid=IwAR1SWTFlv0JHEAVci0Bt0SzuNd-eTYSkKiwBmFlBo99A5RqKN0Zrsm4WBLU" style="font-size: 11px;">Bangladesh Frontier Startups Demo Day</a>
