@@ -26,6 +26,10 @@
                 font-size: 3.5rem;
             }
         }
+        .sslcommerz{
+            max-width: 80%;
+        }
+
     </style>
 </head>
 <body class="bg-light">
@@ -158,7 +162,9 @@
             <li class="list-inline-item"><a href="{{route('terms-and-conditions')}}">Terms and Conditions</a></li>
             <li class="list-inline-item"><a href="{{route('refund-policy')}}">Refund Policy</a></li>
         </ul>
+        <img class="sslcommerz" src="{{ asset('/assets/images/sslcommerz.png') }}">
     </footer>
+
 </div>
 <script>
     (function (window, document) {

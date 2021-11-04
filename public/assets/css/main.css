@@ -29275,6 +29275,10 @@ a.text-dark:hover, a.text-dark:focus {
   max-width: 50%;
 }
 
+.sslcommerz{
+  max-width: 80%;
+}
+
 @media (min-width: 320px) and (max-width: 900px){
 
   .playstoreicon{
@@ -29290,6 +29294,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .eduapp{
     max-width: 50%;
+  }
+
+  .sslcommerz{
+    max-width: 70%;
   }
 }
 

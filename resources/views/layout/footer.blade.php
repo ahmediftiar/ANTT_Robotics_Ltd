@@ -118,8 +118,10 @@
             <div class="text-center app">
                 <h5>EduBlock - Learning STEAM</h5>
                 <a href="https://play.google.com/store/apps/details?id=co.edublock&hl=en&gl=US" target="_blank"><img class="playstoreicon" src="{{ asset('/assets/images/googleplay.png') }}"></a>
-                <a href="#"><img class="appstoreicon" src="{{ asset('/assets/images/appstore.png') }}"></a>
+                <a href="#"><img class="appstoreicon" src="{{ asset('/assets/images/appstore.png') }}"></a><br><br>
+                <img class="sslcommerz" src="{{ asset('/assets/images/sslcommerz.png') }}">
             </div>
+
         </div>
         <!--end of container-->
     </footer>
