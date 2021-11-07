@@ -29,6 +29,8 @@
                     <span class="font-weight-bold">{{ $name }}</span>
                     <span>Category: {{ $category }}</span>
                     <span>Price: {{ $price }}</span>
+                    <span class="mt-4">Verified by</span>
+                    <img style="max-width: 90%;" src="{{ asset('/assets/images/sslcommerz2.png') }}">
                 </div>
             </div>
             <div class="col-md-6 border-right">
