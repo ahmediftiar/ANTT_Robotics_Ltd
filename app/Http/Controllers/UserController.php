@@ -295,7 +295,7 @@ class UserController extends Controller
             $googleUser = Socialite::driver('google')->stateless()->user();
             $this->_registerorLoginUser($googleUser, $request);
             if(!Session::has('emailFound')){
-                return redirect()->route('dashboard');
+                return redirect()->route('course');
             }else{
                 return redirect()->route('login');
         }
@@ -320,7 +320,7 @@ class UserController extends Controller
                 $this->_registerorLoginUser($facebookUser, $request);
             }
             if(!Session::has('emailFound')){
-                return redirect()->route('dashboard');
+                return redirect()->route('course');
             }else{
                 return redirect()->route('login');
             }
