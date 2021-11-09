@@ -50,7 +50,7 @@ class UserController extends Controller
             if (Hash::check($request->password, $user[0]->password)) {
                 $request->session()->put('email', $user[0]->email);
                 $request->session()->put('name', $user[0]->name);
-                return redirect()->route('login');
+                return redirect()->route('course');
             } 
             $request->session()->put('login0', "0");
             return redirect()->route('login');    
