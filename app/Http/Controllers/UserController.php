@@ -31,9 +31,9 @@ class UserController extends Controller
         $user->password = Hash::make($request->password);
         $user->save();
         $request->session()->put('register', "register");
-        return redirect()->route('register');        
+        return redirect()->route('register');
     }
-   
+
     public function loginForm()
     {
         return view('user.login');
@@ -50,15 +50,19 @@ class UserController extends Controller
             if (Hash::check($request->password, $user[0]->password)) {
                 $request->session()->put('email', $user[0]->email);
                 $request->session()->put('name', $user[0]->name);
-                return redirect()->route('course');
-            } 
+                if($request->session()->get('courselink')){
+                    return redirect()->route($request->session()->get('courselink'));      
+                }else{
+                    return redirect()->route('dashboard');
+                }    
+            }
             $request->session()->put('login0', "0");
-            return redirect()->route('login');    
+            return redirect()->route('login');
         }else{
             $request->session()->put('login00', "00");
-            return redirect()->route('login'); 
+            return redirect()->route('login');
         }
-        
+
     }
     public function dashboard()
     {
@@ -112,8 +116,8 @@ class UserController extends Controller
         else{
             return view('user.profile2');
         }
-    	
-       
+
+
     }
 
     public function  profileUpdate(Request $request)
@@ -128,7 +132,7 @@ class UserController extends Controller
             'country'=>'required|min:3|max:36',
             'postcode'=>'integer',
         ]);
-        
+
         $email = session('email');
     	$profile = UserInformation::where('email', $email)->get();
         if( count($profile) > 0){
@@ -150,7 +154,7 @@ class UserController extends Controller
             $request->session()->forget('name');
             $request->session()->put('name', $request->name);
             $request->session()->put('success', "1");
-            
+
             return redirect()->route('user.profile');
         }
         else{
@@ -176,7 +180,7 @@ class UserController extends Controller
             $request->session()->put('success', "1");
 
             return redirect()->route('user.profile');
-        }       
+        }
     }
 
     public function changePasswordForm(){
@@ -220,12 +224,13 @@ class UserController extends Controller
             $request->session()->put('change-fail', "0");
             return view('user.changepassword');
         }
-    
+
     }
 
     public function logout(Request $request){
         $request->session()->forget('email');
         $request->session()->forget('name');
+        $request->session()->forget('courselink');
         return redirect()->route('home');
     }
 
@@ -234,7 +239,7 @@ class UserController extends Controller
         $category = $request->get('category');
         $price = $request->get('price');
         $image = $request->get('image');
-        
+
 
         $email = session('email');
         $profile = UserInformation::where('email', $email)->get();
@@ -251,7 +256,7 @@ class UserController extends Controller
                                     ->with('price', $price)
                                     ->with('image', $image);
         }
-        
+
     }
 
     public function orderPlace(Request $request){
@@ -268,7 +273,7 @@ class UserController extends Controller
         $order = new OrderModel();
         $order->name = $request->name;
         $order->category = $request->category;
-        $order->price = $request->price; 
+        $order->price = $request->price;
         $order->studentname = $request->studentname;
         $order->email = session('email');
         $order->phone = $request->phone;
@@ -280,7 +285,7 @@ class UserController extends Controller
         $order->postcode = $request->postcode;
         $order->status = "Pending";
         $order->save();
-        return redirect()->route('allorder'); 
+        return redirect()->route('allorder');
     }
 
     //Social Login Starts Here
@@ -301,7 +306,7 @@ class UserController extends Controller
         }
         }catch(\Exception $e){
             return redirect()->route('login');
-        }       
+        }
     }
 
     public function redirectToFacebook()
@@ -327,7 +332,7 @@ class UserController extends Controller
         }catch(\Exception $e){
             return redirect()->route('login');
         }
-       
+
     }
 
 
@@ -347,13 +352,13 @@ class UserController extends Controller
                 $request->session()->put('sociallogin', $user->socialid);
             }else{
                 $request->session()->put('emailFound', "Email Found");
-            }	
+            }
     	}else{
             $request->session()->put('email', $user->email);
             $request->session()->put('name', $user->name);
             $request->session()->put('sociallogin', $user->socialid);
         }
-        
+
     }
 
     //Social Login Ends Here

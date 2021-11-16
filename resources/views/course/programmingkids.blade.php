@@ -7,15 +7,15 @@
 <meta name="keywords" content="Industry 4.0, premium, multipurpose, saas" />
 <meta name="description" content="Facilitate Industry 4.0" />
 
-<meta property="fb:app_id"          content="284364716206031" /> 
-<meta property="og:type"            content="website" /> 
-<meta property="og:url"             content="https://www.anttrobotics.com/"/> 
-<meta property="og:title"           content="Facilitate Industry 4.0" /> 
-<meta property="og:image"           content="https://www.anttrobotics.com/public/frontend/assets/images/about/edu-iot.png" /> 
-<meta property="og:image"           content="https://www.anttrobotics.com/public/frontend/assets/images/about/edubot2-1.png" /> 
-<meta property="og:image"           content="https://www.anttrobotics.com/public/frontend/assets/images/portfolio/01.png" /> 
+<meta property="fb:app_id"          content="284364716206031" />
+<meta property="og:type"            content="website" />
+<meta property="og:url"             content="https://www.anttrobotics.com/"/>
+<meta property="og:title"           content="Facilitate Industry 4.0" />
+<meta property="og:image"           content="https://www.anttrobotics.com/public/frontend/assets/images/about/edu-iot.png" />
+<meta property="og:image"           content="https://www.anttrobotics.com/public/frontend/assets/images/about/edubot2-1.png" />
+<meta property="og:image"           content="https://www.anttrobotics.com/public/frontend/assets/images/portfolio/01.png" />
 <meta property="og:image"           content="https://www.anttrobotics.com/public/frontend/assets/images/hero/School-of-Iot-with-dashboard-1200x700.png" />
-<meta property="og:image:alt"           content="Image" /> 
+<meta property="og:image:alt"           content="Image" />
 <meta property="og:description"    content="STEM Learning Ecosystem for 4IR, IoT and Robotics" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="google-site-verification" content="z8eugNKi33OtVizosZQ5-bw5HKKo_uMibPyKUkvxVmU">
@@ -142,7 +142,7 @@
                                     <!--</ul>-->
                                 </div>
                                 <div class="post-content">
-                                    
+
                                     <h4 class="mt-5 text-primary">What you’ll learn</h4>
             <div class="d-flex align-items-center mb-3">
                   <div class="badge-primary-soft rounded p-1">
@@ -176,14 +176,14 @@
                   </div>
                   <p class="mb-0 ml-3">Assembling various sensors and devices with IoT </p>
                 </div>
-                                        
+
                                         <!--<blockquote class="blockquote">-->
                                         <!--    <p>To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.</p>-->
                                         <!--    <footer class="blockquote-footer">Amanda Pollock, Google Inc.</footer>-->
                                         <!--</blockquote>-->
-                                      <h4 class="mt-5 text-primary">Short Details </h4>   
+                                      <h4 class="mt-5 text-primary">Short Details </h4>
                                         <p>Turning your lights on and off or a weather data logger or an automated garden, you can do all that with the School of IoT board. This intelligent device allows cloud data monitoring and has an onboard data-log backup on an SD card for data security and easy accessibility. The multichannel onboard relay lets easy control over machinery. This high-quality board is a one-for-all solution to add an instant boost to any IoT demanding system. Students who want to learn network infrastructure that connects physical objects and software applications wirelessly and those who want to know the hardware placement with basic electronics and Circuit design concept can easily enroll in this course.</p>
-                                        
+
                                          <h4 class="mt-5 text-primary">Course Fee: </h4>
             <div class="d-flex align-items-center mb-3">
                   <div class="badge-primary-soft rounded p-1">
@@ -193,7 +193,7 @@
                   </div>
                   <p class="mb-0 ml-3">6700 BDT </p>
                 </div>
-             
+
                 <div class="d-flex align-items-center mb-3">
                   <div class="badge-primary-soft rounded p-1">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">

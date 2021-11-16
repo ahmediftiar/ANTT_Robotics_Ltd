@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\ContactUsModel;
+use Session;
 
 class WelcomeController extends Controller
 {
@@ -13,55 +14,63 @@ class WelcomeController extends Controller
     }
 
     //Course Start
-                      
+
     public function course()
     {
         return view('course.course');
 
     }
-    public function basicarduino()
+    public function basicarduino(Request $request)
      {
-         return view('course.basicarduino');
+        $request->session()->put('courselink', 'course.basicarduino');
+        return view('course.basicarduino');
 
      }
-     public function programmingkids()
+     public function programmingkids(Request $request)
       {
-          return view('course.programmingkids');
+        $request->session()->put('courselink', 'course.programmingkids');
+        return view('course.programmingkids');
 
       }
-      public function scratchprograms()
+      public function scratchprograms(Request $request)
        {
-           return view('course.scratchprograms');
+            $request->session()->put('courselink', 'course.scratchprograms');
+            return view('course.scratchprograms');
 
        }
 
-      public function arduinowithtinkercad()
+      public function arduinowithtinkercad(Request $request)
      {
-         return view('course.arduinowithtinkercad');
-
-     }
-     
-      public function basicrobotics()
-     {
-         return view('course.basicrobotics');
+        $request->session()->put('courselink', 'course.arduinowithtinkercad');
+        return view('course.arduinowithtinkercad');
 
      }
 
-      public function buildgames()
+      public function basicrobotics(Request $request)
      {
-         return view('course.buildgames');
+        $request->session()->put('courselink', 'course.basicrobotics');
+        return view('course.basicrobotics');
 
      }
 
-     public function soccerrobot()
+      public function buildgames(Request $request)
      {
-         return view('course.soccerrobot');
+        $request->session()->put('courselink', 'course.buildgames');
+        return view('course.buildgames');
 
      }
 
-     public function iotcar()
+     public function soccerrobot(Request $request)
      {
-         return view('course.iotcar');
+        $request->session()->put('courselink', 'course.soccerrobot');
+        return view('course.soccerrobot');
+
+     }
+
+     public function iotcar(Request $request)
+     {
+        $request->session()->put('courselink', 'course.iotcar');
+        return view('course.iotcar');
 
      }
     //Course End
@@ -123,7 +132,7 @@ class WelcomeController extends Controller
         return view('solution.solution');
     }
 
-    
+
     public function termsAndConditions()
     {
         return view('conditions.termsandconditions');
